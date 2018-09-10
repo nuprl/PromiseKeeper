@@ -1,5 +1,6 @@
-# PromiseKeeper: ### Finding Broken Promises in Asynchronous JavaScript Programs
-
+# PromiseKeeper
+### Finding Broken Promises in Asynchronous JavaScript Programs
+<br /><br />
 
 ## Installing the project
 The instructions are for installation on Ubuntu.
