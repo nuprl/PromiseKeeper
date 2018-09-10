@@ -1,5 +1,4 @@
-# PromiseKeeper
-### Finding Broken Promises in Asynchronous JavaScript Programs
+# PromiseKeeper: ### Finding Broken Promises in Asynchronous JavaScript Programs
 
 
 ## Installing the project
