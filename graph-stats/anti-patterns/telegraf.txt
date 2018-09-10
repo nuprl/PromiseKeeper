@@ -1,0 +1,3 @@
+project-name: telegraf
+
+numOfDeadPromise: 8, numOfUndefinedValue: 409, numOfUndefinedValuesRefined: 0, numOfMissingReject: 386, numOfmissingRejectInChain: 386, numOfMultipleThens: 0, numOfRejectedWithoutAReaction: 0, numOfExclusivelyExecutedReactions: 546, numOfDoubleSettles: 48, numOfPendingPromises: 10, numOfPendingSyncNodes: 0, numOfDeadCode: 568

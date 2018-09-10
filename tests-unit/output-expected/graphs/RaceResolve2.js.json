@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(RaceResolve2.js:7:10:9:3)",
+      "timeStamp": 1523304814585,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "promise",
+      "loc": "(RaceResolve2.js:10:10:12:3)",
+      "timeStamp": 1523304814590,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 0,
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 2,
+      "type": "value",
+      "loc": "(RaceResolve2.js:11:5:11:15)",
+      "timeStamp": 1523304814591,
+      "data": {
+        "value": "Number 2",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(RaceResolve2.js:14:1:14:23)",
+      "timeStamp": 1523304814592,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "sync",
+      "loc": "(RaceResolve2.js:14:1:14:23)",
+      "timeStamp": 1523304814592,
+      "data": {
+        "type": "race"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(RaceResolve2.js:14:1:17:3)",
+      "timeStamp": 1523304814593,
+      "data": {
+        "name": "",
+        "fID": "obj9",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(RaceResolve2.js:14:1:17:3)",
+      "timeStamp": 1523304814593,
+      "data": {
+        "name": "_default",
+        "fID": "obj11",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(RaceResolve2.js:14:1:17:3)",
+      "timeStamp": 1523304814593,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(RaceResolve2.js:14:1:17:3)",
+      "timeStamp": 1523304814594,
+      "data": {
+        "value": "Number 2",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(RaceResolve2.js:8:5:8:38)",
+      "timeStamp": 1523304815595,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 2,
+      "target": 1,
+      "timeStamp": 1523304814591,
+      "loc": "(RaceResolve2.js:11:5:11:15)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "sync",
+      "source": 0,
+      "target": 4,
+      "timeStamp": 1523304814592,
+      "loc": "(RaceResolve2.js:14:1:14:23)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 1,
+      "target": 4,
+      "timeStamp": 1523304814592,
+      "loc": "(RaceResolve2.js:14:1:14:23)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "react-race",
+      "source": 4,
+      "target": 3,
+      "timeStamp": 1523304814592,
+      "loc": "(RaceResolve2.js:14:1:14:23)",
+      "label": "resolved",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 3,
+      "target": 5,
+      "timeStamp": 1523304814593,
+      "loc": "(RaceResolve2.js:14:1:17:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "register",
+      "source": 3,
+      "target": 6,
+      "timeStamp": 1523304814593,
+      "loc": "(RaceResolve2.js:14:1:17:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 6,
+      "type": "react",
+      "source": 8,
+      "target": 7,
+      "timeStamp": 1523304814594,
+      "loc": "(RaceResolve2.js:14:1:17:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 7,
+      "type": "return",
+      "source": 5,
+      "target": 8,
+      "timeStamp": 1523304814593,
+      "loc": "(RaceResolve2.js:14:1:17:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 8,
+      "type": "react",
+      "source": 9,
+      "target": 0,
+      "timeStamp": 1523304815595,
+      "loc": "(RaceResolve2.js:8:5:8:38)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(BugDeadPromise2.js:2:10:4:3)",
+      "timeStamp": 1523304830824,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 1,
+      "type": "function",
+      "loc": "(BugDeadPromise2.js:6:10:10:3)",
+      "timeStamp": 1523304830828,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(BugDeadPromise2.js:6:10:10:3)",
+      "timeStamp": 1523304830828,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(BugDeadPromise2.js:6:10:10:3)",
+      "timeStamp": 1523304830828,
+      "data": {
+        "id": "p1"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 4,
+      "type": "function",
+      "loc": "(BugDeadPromise2.js:12:10:16:3)",
+      "timeStamp": 1523304830829,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(BugDeadPromise2.js:12:10:16:3)",
+      "timeStamp": 1523304830829,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "promise",
+      "loc": "(BugDeadPromise2.js:12:10:16:3)",
+      "timeStamp": 1523304830829,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "pending"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "register",
+      "source": 0,
+      "target": 1,
+      "timeStamp": 1523304830828,
+      "loc": "(BugDeadPromise2.js:6:10:10:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304830828,
+      "loc": "(BugDeadPromise2.js:6:10:10:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 3,
+      "target": 4,
+      "timeStamp": 1523304830829,
+      "loc": "(BugDeadPromise2.js:12:10:16:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 3,
+      "target": 5,
+      "timeStamp": 1523304830829,
+      "loc": "(BugDeadPromise2.js:12:10:16:3)",
+      "label": "on-reject",
+      "data": {}
+    }
+  ]
+}

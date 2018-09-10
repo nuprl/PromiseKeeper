@@ -1,0 +1,56 @@
+project-name: loader-runner
+test-name: test1.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test10.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test11.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test12.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test13.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test14.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test15.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test16.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test17.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test18.json
+functions: 4, values: 3, promises: 3, fulfilled: 3, rejected: 0, pending: 0
+test-name: test19.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test2.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test20.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test21.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test22.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test23.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test24.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test25.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test26.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test3.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test4.json
+functions: 4, values: 3, promises: 3, fulfilled: 3, rejected: 0, pending: 0
+test-name: test5.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test6.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test7.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test8.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: test9.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+
+Total:
+functions: 8, values: 6, promises: 6, fulfilled: 6, rejected: 0, pending: 0

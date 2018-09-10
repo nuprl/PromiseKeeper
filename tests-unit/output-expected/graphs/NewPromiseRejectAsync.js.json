@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(NewPromiseRejectAsync.js:3:9:5:3)",
+      "timeStamp": 1523304780669,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 1,
+      "type": "function",
+      "loc": "(NewPromiseRejectAsync.js:7:1:13:3)",
+      "timeStamp": 1523304780674,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(NewPromiseRejectAsync.js:7:1:13:3)",
+      "timeStamp": 1523304780674,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(NewPromiseRejectAsync.js:7:1:13:3)",
+      "timeStamp": 1523304780675,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "value",
+      "loc": "(NewPromiseRejectAsync.js:4:5:4:36)",
+      "timeStamp": 1523304781673,
+      "data": {
+        "value": "String foo",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "value",
+      "loc": "(NewPromiseRejectAsync.js:7:1:13:3)",
+      "timeStamp": 1523304781674,
+      "data": {
+        "value": "String foo",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "register",
+      "source": 0,
+      "target": 1,
+      "timeStamp": 1523304780674,
+      "loc": "(NewPromiseRejectAsync.js:7:1:13:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304780674,
+      "loc": "(NewPromiseRejectAsync.js:7:1:13:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "react",
+      "source": 4,
+      "target": 0,
+      "timeStamp": 1523304781673,
+      "loc": "(NewPromiseRejectAsync.js:4:5:4:36)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 5,
+      "target": 3,
+      "timeStamp": 1523304781674,
+      "loc": "(NewPromiseRejectAsync.js:7:1:13:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "return",
+      "source": 2,
+      "target": 5,
+      "timeStamp": 1523304780674,
+      "loc": "(NewPromiseRejectAsync.js:7:1:13:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

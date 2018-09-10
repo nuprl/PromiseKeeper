@@ -1,0 +1,106 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(AllSyncResolve.js:3:9:3:24)",
+      "timeStamp": 1523304810967,
+      "data": {
+        "id": "p0"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 1,
+      "type": "sync",
+      "loc": "(AllSyncResolve.js:3:9:3:24)",
+      "timeStamp": 1523304810967,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(AllSyncResolve.js:4:10:4:35)",
+      "timeStamp": 1523304810967,
+      "data": {
+        "id": "p1"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 3,
+      "type": "value",
+      "loc": "(AllSyncResolve.js:4:10:4:35)",
+      "timeStamp": 1523304810967,
+      "data": {
+        "value": 1337
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "value",
+      "loc": "(AllSyncResolve.js:4:10:4:35)",
+      "timeStamp": 1523304810967,
+      "data": {
+        "value": "hi"
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "loc": "(AllSyncResolve.js:4:10:4:35)",
+      "timeStamp": 1523304810967,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "resolved"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react-all",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304810967,
+      "loc": "(AllSyncResolve.js:3:9:3:24)",
+      "label": "resolved",
+      "data": ""
+    },
+    {
+      "id": 1,
+      "type": "sync",
+      "source": 3,
+      "target": 5,
+      "timeStamp": 1523304810967,
+      "loc": "(AllSyncResolve.js:4:10:4:35)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 4,
+      "target": 5,
+      "timeStamp": 1523304810967,
+      "loc": "(AllSyncResolve.js:4:10:4:35)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "react-all",
+      "source": 5,
+      "target": 2,
+      "timeStamp": 1523304810967,
+      "loc": "(AllSyncResolve.js:4:10:4:35)",
+      "label": "resolved",
+      "data": ""
+    }
+  ]
+}

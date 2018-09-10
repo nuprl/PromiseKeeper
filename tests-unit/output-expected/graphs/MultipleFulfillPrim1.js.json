@@ -1,0 +1,78 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(MultipleFulfillPrim1.js:3:9:5:3)",
+      "timeStamp": 1523304819831,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(MultipleFulfillPrim1.js:4:5:4:17)",
+      "timeStamp": 1523304819832,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(MultipleFulfillPrim1.js:7:10:9:3)",
+      "timeStamp": 1523304819833,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1,
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 3,
+      "type": "value",
+      "loc": "(MultipleFulfillPrim1.js:8:5:8:16)",
+      "timeStamp": 1523304819833,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304819832,
+      "loc": "(MultipleFulfillPrim1.js:4:5:4:17)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 3,
+      "target": 2,
+      "timeStamp": 1523304819833,
+      "loc": "(MultipleFulfillPrim1.js:8:5:8:16)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    }
+  ]
+}

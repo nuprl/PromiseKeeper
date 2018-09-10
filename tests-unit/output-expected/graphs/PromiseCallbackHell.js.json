@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(PromiseCallbackHell.js:12:12:12:30)",
+      "timeStamp": 1526312417450,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(PromiseCallbackHell.js:12:12:12:30)",
+      "timeStamp": 1526312417451,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(PromiseCallbackHell.js:2:1:9:3)",
+      "timeStamp": 1526312417454,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(PromiseCallbackHell.js:2:1:9:3)",
+      "timeStamp": 1526312417454,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(PromiseCallbackHell.js:2:1:9:3)",
+      "timeStamp": 1526312417454,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(PromiseCallbackHell.js:16:12:16:30)",
+      "timeStamp": 1526312417455,
+      "data": {
+        "id": "p2",
+        "associatedOID": "obj11",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 6,
+      "type": "value",
+      "loc": "(PromiseCallbackHell.js:16:12:16:30)",
+      "timeStamp": 1526312417456,
+      "data": {
+        "value": "Number 2",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "function",
+      "loc": "(PromiseCallbackHell.js:4:5:8:7)",
+      "timeStamp": 1526312417456,
+      "data": {
+        "name": "",
+        "fID": "obj13",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 8,
+      "type": "function",
+      "loc": "(PromiseCallbackHell.js:4:5:8:7)",
+      "timeStamp": 1526312417456,
+      "data": {
+        "name": "_default",
+        "fID": "obj15",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "promise",
+      "loc": "(PromiseCallbackHell.js:4:5:8:7)",
+      "timeStamp": 1526312417456,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 4
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 10,
+      "type": "value",
+      "loc": "(PromiseCallbackHell.js:2:1:9:3)",
+      "timeStamp": 1526312417456,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 11,
+      "type": "promise",
+      "loc": "(PromiseCallbackHell.js:20:12:20:30)",
+      "timeStamp": 1526312417456,
+      "data": {
+        "id": "p4",
+        "associatedOID": "obj19",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 12,
+      "type": "value",
+      "loc": "(PromiseCallbackHell.js:20:12:20:30)",
+      "timeStamp": 1526312417456,
+      "data": {
+        "value": "Number 3",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 13,
+      "type": "function",
+      "loc": "(PromiseCallbackHell.js:5:9:7:11)",
+      "timeStamp": 1526312417457,
+      "data": {
+        "name": "",
+        "fID": "obj21",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 14,
+      "type": "function",
+      "loc": "(PromiseCallbackHell.js:5:9:7:11)",
+      "timeStamp": 1526312417457,
+      "data": {
+        "name": "_default",
+        "fID": "obj23",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 15,
+      "type": "promise",
+      "loc": "(PromiseCallbackHell.js:5:9:7:11)",
+      "timeStamp": 1526312417457,
+      "data": {
+        "id": "p5",
+        "fulfillCounter": 5
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 16,
+      "type": "value",
+      "loc": "(PromiseCallbackHell.js:4:5:8:7)",
+      "timeStamp": 1526312417457,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 17,
+      "type": "value",
+      "loc": "(PromiseCallbackHell.js:5:9:7:11)",
+      "timeStamp": 1526312417457,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1526312417451,
+      "loc": "(PromiseCallbackHell.js:12:12:12:30)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1526312417454,
+      "loc": "(PromiseCallbackHell.js:2:1:9:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1526312417454,
+      "loc": "(PromiseCallbackHell.js:2:1:9:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 6,
+      "target": 5,
+      "timeStamp": 1526312417456,
+      "loc": "(PromiseCallbackHell.js:16:12:16:30)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 5,
+      "target": 7,
+      "timeStamp": 1526312417456,
+      "loc": "(PromiseCallbackHell.js:4:5:8:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "register",
+      "source": 5,
+      "target": 8,
+      "timeStamp": 1526312417456,
+      "loc": "(PromiseCallbackHell.js:4:5:8:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 6,
+      "type": "react",
+      "source": 10,
+      "target": 4,
+      "timeStamp": 1526312417456,
+      "loc": "(PromiseCallbackHell.js:2:1:9:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 7,
+      "type": "return",
+      "source": 2,
+      "target": 10,
+      "timeStamp": 1526312417454,
+      "loc": "(PromiseCallbackHell.js:2:1:9:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 8,
+      "type": "react",
+      "source": 12,
+      "target": 11,
+      "timeStamp": 1526312417456,
+      "loc": "(PromiseCallbackHell.js:20:12:20:30)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 9,
+      "type": "register",
+      "source": 11,
+      "target": 13,
+      "timeStamp": 1526312417457,
+      "loc": "(PromiseCallbackHell.js:5:9:7:11)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 10,
+      "type": "register",
+      "source": 11,
+      "target": 14,
+      "timeStamp": 1526312417457,
+      "loc": "(PromiseCallbackHell.js:5:9:7:11)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 11,
+      "type": "react",
+      "source": 16,
+      "target": 9,
+      "timeStamp": 1526312417457,
+      "loc": "(PromiseCallbackHell.js:4:5:8:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 12,
+      "type": "return",
+      "source": 7,
+      "target": 16,
+      "timeStamp": 1526312417456,
+      "loc": "(PromiseCallbackHell.js:4:5:8:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 13,
+      "type": "react",
+      "source": 17,
+      "target": 15,
+      "timeStamp": 1526312417457,
+      "loc": "(PromiseCallbackHell.js:5:9:7:11)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 14,
+      "type": "return",
+      "source": 13,
+      "target": 17,
+      "timeStamp": 1526312417457,
+      "loc": "(PromiseCallbackHell.js:5:9:7:11)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(SharedReactionFunction.js:5:1:5:19)",
+      "timeStamp": 1526606845518,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(SharedReactionFunction.js:5:1:5:19)",
+      "timeStamp": 1526606845519,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
+      "timeStamp": 1526606845520,
+      "data": {
+        "name": "foo",
+        "fID": "obj5",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
+      "timeStamp": 1526606845520,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
+      "timeStamp": 1526606845520,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(SharedReactionFunction.js:6:1:6:19)",
+      "timeStamp": 1526606845520,
+      "data": {
+        "id": "p2",
+        "associatedOID": "obj11",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 6,
+      "type": "value",
+      "loc": "(SharedReactionFunction.js:6:1:6:19)",
+      "timeStamp": 1526606845520,
+      "data": {
+        "value": "Number 2",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "function",
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "timeStamp": 1526606845520,
+      "data": {
+        "name": "foo",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 8,
+      "type": "function",
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "timeStamp": 1526606845520,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "promise",
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "timeStamp": 1526606845520,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 10,
+      "type": "value",
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
+      "timeStamp": 1526606845523,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 11,
+      "type": "value",
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "timeStamp": 1526606845523,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1526606845519,
+      "loc": "(SharedReactionFunction.js:5:1:5:19)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1526606845520,
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1526606845520,
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 6,
+      "target": 5,
+      "timeStamp": 1526606845520,
+      "loc": "(SharedReactionFunction.js:6:1:6:19)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 5,
+      "target": 7,
+      "timeStamp": 1526606845520,
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "register",
+      "source": 5,
+      "target": 8,
+      "timeStamp": 1526606845520,
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 6,
+      "type": "react",
+      "source": 10,
+      "target": 4,
+      "timeStamp": 1526606845523,
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 7,
+      "type": "return",
+      "source": 7,
+      "target": 10,
+      "timeStamp": 1526606845520,
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 8,
+      "type": "react",
+      "source": 11,
+      "target": 9,
+      "timeStamp": 1526606845523,
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 9,
+      "type": "return",
+      "source": 7,
+      "target": 11,
+      "timeStamp": 1526606845520,
+      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

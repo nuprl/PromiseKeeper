@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(PromiseReturnObjResolve.js:8:9:8:64)",
+      "timeStamp": 1523304798506,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(PromiseReturnObjResolve.js:8:49:8:61)",
+      "timeStamp": 1523304798508,
+      "data": {
+        "value": "Object",
+        "id": "obj3"
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304798508,
+      "loc": "(PromiseReturnObjResolve.js:8:49:8:61)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    }
+  ]
+}

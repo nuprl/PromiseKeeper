@@ -1,0 +1,396 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(RaceMultipleReject1.js:5:9:7:3)",
+      "timeStamp": 1523304818253,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 4
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "promise",
+      "loc": "(RaceMultipleReject1.js:8:10:10:3)",
+      "timeStamp": 1523304818255,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 0,
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 2,
+      "type": "value",
+      "loc": "(RaceMultipleReject1.js:9:5:9:19)",
+      "timeStamp": 1523304818259,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(RaceMultipleReject1.js:12:10:12:31)",
+      "timeStamp": 1523304818262,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 4,
+      "type": "sync",
+      "loc": "(RaceMultipleReject1.js:12:10:12:31)",
+      "timeStamp": 1523304818262,
+      "data": {
+        "type": "race"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(RaceMultipleReject1.js:12:10:18:3)",
+      "timeStamp": 1523304818262,
+      "data": {
+        "name": "",
+        "fID": "obj9",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(RaceMultipleReject1.js:12:10:18:3)",
+      "timeStamp": 1523304818263,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(RaceMultipleReject1.js:12:10:18:3)",
+      "timeStamp": 1523304818263,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "promise",
+      "loc": "(RaceMultipleReject1.js:20:10:22:3)",
+      "timeStamp": 1523304818263,
+      "data": {
+        "id": "p4",
+        "fulfillCounter": 1,
+        "associatedOID": "obj15"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(RaceMultipleReject1.js:21:5:21:14)",
+      "timeStamp": 1523304818263,
+      "data": {
+        "value": "Number 2",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 10,
+      "type": "promise",
+      "loc": "(RaceMultipleReject1.js:24:10:24:32)",
+      "timeStamp": 1523304818263,
+      "data": {
+        "id": "p5"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 11,
+      "type": "sync",
+      "loc": "(RaceMultipleReject1.js:24:10:24:32)",
+      "timeStamp": 1523304818263,
+      "data": {
+        "type": "race"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 12,
+      "type": "function",
+      "loc": "(RaceMultipleReject1.js:24:10:30:3)",
+      "timeStamp": 1523304818264,
+      "data": {
+        "name": "",
+        "fID": "obj19",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 13,
+      "type": "function",
+      "loc": "(RaceMultipleReject1.js:24:10:30:3)",
+      "timeStamp": 1523304818264,
+      "data": {
+        "name": "",
+        "fID": "obj21",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 14,
+      "type": "promise",
+      "loc": "(RaceMultipleReject1.js:24:10:30:3)",
+      "timeStamp": 1523304818264,
+      "data": {
+        "id": "p6",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 15,
+      "type": "value",
+      "loc": "(RaceMultipleReject1.js:12:10:18:3)",
+      "timeStamp": 1523304818265,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 16,
+      "type": "value",
+      "loc": "(RaceMultipleReject1.js:24:10:30:3)",
+      "timeStamp": 1523304818265,
+      "data": {
+        "value": "Number 2",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 17,
+      "type": "value",
+      "loc": "(RaceMultipleReject1.js:6:5:6:37)",
+      "timeStamp": 1523304818755,
+      "data": {
+        "value": "String five",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 2,
+      "target": 1,
+      "timeStamp": 1523304818259,
+      "loc": "(RaceMultipleReject1.js:9:5:9:19)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "sync",
+      "source": 0,
+      "target": 4,
+      "timeStamp": 1523304818262,
+      "loc": "(RaceMultipleReject1.js:12:10:12:31)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 1,
+      "target": 4,
+      "timeStamp": 1523304818262,
+      "loc": "(RaceMultipleReject1.js:12:10:12:31)",
+      "label": "[rejected]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "react-race",
+      "source": 4,
+      "target": 3,
+      "timeStamp": 1523304818262,
+      "loc": "(RaceMultipleReject1.js:12:10:12:31)",
+      "label": "rejected",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 3,
+      "target": 5,
+      "timeStamp": 1523304818262,
+      "loc": "(RaceMultipleReject1.js:12:10:18:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "register",
+      "source": 3,
+      "target": 6,
+      "timeStamp": 1523304818263,
+      "loc": "(RaceMultipleReject1.js:12:10:18:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 6,
+      "type": "react",
+      "source": 9,
+      "target": 8,
+      "timeStamp": 1523304818263,
+      "loc": "(RaceMultipleReject1.js:21:5:21:14)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 7,
+      "type": "sync",
+      "source": 7,
+      "target": 11,
+      "timeStamp": 1523304818263,
+      "loc": "(RaceMultipleReject1.js:24:10:24:32)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 8,
+      "type": "sync",
+      "source": 8,
+      "target": 11,
+      "timeStamp": 1523304818263,
+      "loc": "(RaceMultipleReject1.js:24:10:24:32)",
+      "label": "[rejected]",
+      "data": ""
+    },
+    {
+      "id": 9,
+      "type": "react-race",
+      "source": 11,
+      "target": 10,
+      "timeStamp": 1523304818263,
+      "loc": "(RaceMultipleReject1.js:24:10:24:32)",
+      "label": "rejected",
+      "data": ""
+    },
+    {
+      "id": 10,
+      "type": "register",
+      "source": 10,
+      "target": 12,
+      "timeStamp": 1523304818264,
+      "loc": "(RaceMultipleReject1.js:24:10:30:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 11,
+      "type": "register",
+      "source": 10,
+      "target": 13,
+      "timeStamp": 1523304818264,
+      "loc": "(RaceMultipleReject1.js:24:10:30:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 12,
+      "type": "react",
+      "source": 15,
+      "target": 7,
+      "timeStamp": 1523304818265,
+      "loc": "(RaceMultipleReject1.js:12:10:18:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 13,
+      "type": "return",
+      "source": 6,
+      "target": 15,
+      "timeStamp": 1523304818263,
+      "loc": "(RaceMultipleReject1.js:12:10:18:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 14,
+      "type": "react",
+      "source": 16,
+      "target": 14,
+      "timeStamp": 1523304818265,
+      "loc": "(RaceMultipleReject1.js:24:10:30:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 15,
+      "type": "return",
+      "source": 13,
+      "target": 16,
+      "timeStamp": 1523304818264,
+      "loc": "(RaceMultipleReject1.js:24:10:30:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 16,
+      "type": "react",
+      "source": 17,
+      "target": 0,
+      "timeStamp": 1523304818755,
+      "loc": "(RaceMultipleReject1.js:6:5:6:37)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    }
+  ]
+}

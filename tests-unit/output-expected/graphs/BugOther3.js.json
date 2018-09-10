@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(BugOther3.js:1:10:1:28)",
+      "timeStamp": 1523304842913,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(BugOther3.js:1:10:1:28)",
+      "timeStamp": 1523304842915,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(BugOther3.js:8:10:8:24)",
+      "timeStamp": 1523304842916,
+      "data": {
+        "name": "_default",
+        "fID": "obj5",
+        "executed": false
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(BugOther3.js:8:10:8:24)",
+      "timeStamp": 1523304842916,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": true
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(BugOther3.js:8:10:8:24)",
+      "timeStamp": 1523304842916,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(BugOther3.js:10:10:13:3)",
+      "timeStamp": 1523304842916,
+      "data": {
+        "name": "_default",
+        "fID": "obj11",
+        "executed": false
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(BugOther3.js:10:10:13:3)",
+      "timeStamp": 1523304842916,
+      "data": {
+        "name": "",
+        "fID": "obj13",
+        "executed": true
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(BugOther3.js:10:10:13:3)",
+      "timeStamp": 1523304842916,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(BugOther3.js:8:10:8:24)",
+      "timeStamp": 1523304842917,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(BugOther3.js:10:10:13:3)",
+      "timeStamp": 1523304842919,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304842915,
+      "loc": "(BugOther3.js:1:10:1:28)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304842916,
+      "loc": "(BugOther3.js:8:10:8:24)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304842916,
+      "loc": "(BugOther3.js:8:10:8:24)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 4,
+      "target": 5,
+      "timeStamp": 1523304842916,
+      "loc": "(BugOther3.js:10:10:13:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 4,
+      "target": 6,
+      "timeStamp": 1523304842916,
+      "loc": "(BugOther3.js:10:10:13:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 8,
+      "target": 4,
+      "timeStamp": 1523304842917,
+      "loc": "(BugOther3.js:8:10:8:24)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "return",
+      "source": 3,
+      "target": 8,
+      "timeStamp": 1523304842916,
+      "loc": "(BugOther3.js:8:10:8:24)",
+      "label": "default return",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 9,
+      "target": 7,
+      "timeStamp": 1523304842919,
+      "loc": "(BugOther3.js:10:10:13:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 6,
+      "target": 9,
+      "timeStamp": 1523304842916,
+      "loc": "(BugOther3.js:10:10:13:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

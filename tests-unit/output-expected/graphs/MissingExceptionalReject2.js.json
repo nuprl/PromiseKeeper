@@ -1,0 +1,442 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(MissingExceptionalReject2.js:2:10:4:3)",
+      "timeStamp": 1523304839805,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(MissingExceptionalReject2.js:3:5:3:16)",
+      "timeStamp": 1523304839807,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(MissingExceptionalReject2.js:5:1:6:3)",
+      "timeStamp": 1523304839810,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(MissingExceptionalReject2.js:5:1:6:3)",
+      "timeStamp": 1523304839810,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(MissingExceptionalReject2.js:5:1:6:3)",
+      "timeStamp": 1523304839810,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(MissingExceptionalReject2.js:5:1:7:3)",
+      "timeStamp": 1523304839811,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(MissingExceptionalReject2.js:5:1:7:3)",
+      "timeStamp": 1523304839811,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(MissingExceptionalReject2.js:5:1:7:3)",
+      "timeStamp": 1523304839811,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 4
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "promise",
+      "loc": "(MissingExceptionalReject2.js:11:10:13:3)",
+      "timeStamp": 1523304839811,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 1,
+        "associatedOID": "obj17"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(MissingExceptionalReject2.js:12:5:12:16)",
+      "timeStamp": 1523304839811,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 10,
+      "type": "function",
+      "loc": "(MissingExceptionalReject2.js:14:1:16:3)",
+      "timeStamp": 1523304839812,
+      "data": {
+        "name": "",
+        "fID": "obj19",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 11,
+      "type": "function",
+      "loc": "(MissingExceptionalReject2.js:14:1:16:3)",
+      "timeStamp": 1523304839812,
+      "data": {
+        "name": "_default",
+        "fID": "obj21",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 12,
+      "type": "promise",
+      "loc": "(MissingExceptionalReject2.js:14:1:16:3)",
+      "timeStamp": 1523304839812,
+      "data": {
+        "id": "p4",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 13,
+      "type": "function",
+      "loc": "(MissingExceptionalReject2.js:14:1:18:3)",
+      "timeStamp": 1523304839812,
+      "data": {
+        "name": "",
+        "fID": "obj25",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 14,
+      "type": "function",
+      "loc": "(MissingExceptionalReject2.js:14:1:18:3)",
+      "timeStamp": 1523304839812,
+      "data": {
+        "name": "_default",
+        "fID": "obj27",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 15,
+      "type": "promise",
+      "loc": "(MissingExceptionalReject2.js:14:1:18:3)",
+      "timeStamp": 1523304839812,
+      "data": {
+        "id": "p5",
+        "fulfillCounter": 5
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 16,
+      "type": "value",
+      "loc": "(MissingExceptionalReject2.js:5:1:6:3)",
+      "timeStamp": 1523304839813,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 17,
+      "type": "value",
+      "loc": "(MissingExceptionalReject2.js:14:1:16:3)",
+      "timeStamp": 1523304839813,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 18,
+      "type": "value",
+      "loc": "(MissingExceptionalReject2.js:5:1:7:3)",
+      "timeStamp": 1523304839813,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 19,
+      "type": "value",
+      "loc": "(MissingExceptionalReject2.js:14:1:18:3)",
+      "timeStamp": 1523304839813,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304839807,
+      "loc": "(MissingExceptionalReject2.js:3:5:3:16)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304839810,
+      "loc": "(MissingExceptionalReject2.js:5:1:6:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304839810,
+      "loc": "(MissingExceptionalReject2.js:5:1:6:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 4,
+      "target": 5,
+      "timeStamp": 1523304839811,
+      "loc": "(MissingExceptionalReject2.js:5:1:7:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 4,
+      "target": 6,
+      "timeStamp": 1523304839811,
+      "loc": "(MissingExceptionalReject2.js:5:1:7:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 9,
+      "target": 8,
+      "timeStamp": 1523304839811,
+      "loc": "(MissingExceptionalReject2.js:12:5:12:16)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "register",
+      "source": 8,
+      "target": 10,
+      "timeStamp": 1523304839812,
+      "loc": "(MissingExceptionalReject2.js:14:1:16:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "register",
+      "source": 8,
+      "target": 11,
+      "timeStamp": 1523304839812,
+      "loc": "(MissingExceptionalReject2.js:14:1:16:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 8,
+      "type": "register",
+      "source": 12,
+      "target": 13,
+      "timeStamp": 1523304839812,
+      "loc": "(MissingExceptionalReject2.js:14:1:18:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 9,
+      "type": "register",
+      "source": 12,
+      "target": 14,
+      "timeStamp": 1523304839812,
+      "loc": "(MissingExceptionalReject2.js:14:1:18:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 10,
+      "type": "react",
+      "source": 16,
+      "target": 4,
+      "timeStamp": 1523304839813,
+      "loc": "(MissingExceptionalReject2.js:5:1:6:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 11,
+      "type": "return",
+      "source": 2,
+      "target": 16,
+      "timeStamp": 1523304839810,
+      "loc": "(MissingExceptionalReject2.js:5:1:6:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 12,
+      "type": "react",
+      "source": 17,
+      "target": 12,
+      "timeStamp": 1523304839813,
+      "loc": "(MissingExceptionalReject2.js:14:1:16:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 13,
+      "type": "return",
+      "source": 10,
+      "target": 17,
+      "timeStamp": 1523304839812,
+      "loc": "(MissingExceptionalReject2.js:14:1:16:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 14,
+      "type": "react",
+      "source": 18,
+      "target": 7,
+      "timeStamp": 1523304839813,
+      "loc": "(MissingExceptionalReject2.js:5:1:7:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 15,
+      "type": "return",
+      "source": 5,
+      "target": 18,
+      "timeStamp": 1523304839811,
+      "loc": "(MissingExceptionalReject2.js:5:1:7:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 16,
+      "type": "react",
+      "source": 19,
+      "target": 15,
+      "timeStamp": 1523304839813,
+      "loc": "(MissingExceptionalReject2.js:14:1:18:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 17,
+      "type": "return",
+      "source": 13,
+      "target": 19,
+      "timeStamp": 1523304839812,
+      "loc": "(MissingExceptionalReject2.js:14:1:18:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

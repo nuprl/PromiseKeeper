@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(PosterExample.js:1:10:1:34)",
+      "timeStamp": 1526606829266,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(PosterExample.js:1:10:1:34)",
+      "timeStamp": 1526606829267,
+      "data": {
+        "value": "String error",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(PosterExample.js:2:10:5:3)",
+      "timeStamp": 1526606829268,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1,
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 3,
+      "type": "value",
+      "loc": "(PosterExample.js:4:5:4:23)",
+      "timeStamp": 1526606829268,
+      "data": {
+        "value": "String success",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(PosterExample.js:6:1:6:22)",
+      "timeStamp": 1526606829269,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "loc": "(PosterExample.js:6:1:6:22)",
+      "timeStamp": 1526606829269,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(PosterExample.js:6:1:8:3)",
+      "timeStamp": 1526606829269,
+      "data": {
+        "name": "",
+        "fID": "obj9",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "function",
+      "loc": "(PosterExample.js:6:1:8:3)",
+      "timeStamp": 1526606829269,
+      "data": {
+        "name": "_default",
+        "fID": "obj11",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 8,
+      "type": "promise",
+      "loc": "(PosterExample.js:6:1:8:3)",
+      "timeStamp": 1526606829269,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(PosterExample.js:6:1:8:3)",
+      "timeStamp": 1526606829270,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1526606829267,
+      "loc": "(PosterExample.js:1:10:1:34)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 3,
+      "target": 2,
+      "timeStamp": 1526606829268,
+      "loc": "(PosterExample.js:4:5:4:23)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 0,
+      "target": 5,
+      "timeStamp": 1526606829269,
+      "loc": "(PosterExample.js:6:1:6:22)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "sync",
+      "source": 2,
+      "target": 5,
+      "timeStamp": 1526606829269,
+      "loc": "(PosterExample.js:6:1:6:22)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "react-all",
+      "source": 5,
+      "target": 4,
+      "timeStamp": 1526606829269,
+      "loc": "(PosterExample.js:6:1:6:22)",
+      "label": "resolved",
+      "data": ""
+    },
+    {
+      "id": 5,
+      "type": "register",
+      "source": 4,
+      "target": 6,
+      "timeStamp": 1526606829269,
+      "loc": "(PosterExample.js:6:1:8:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 6,
+      "type": "register",
+      "source": 4,
+      "target": 7,
+      "timeStamp": 1526606829269,
+      "loc": "(PosterExample.js:6:1:8:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 9,
+      "target": 8,
+      "timeStamp": 1526606829270,
+      "loc": "(PosterExample.js:6:1:8:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 6,
+      "target": 9,
+      "timeStamp": 1526606829269,
+      "loc": "(PosterExample.js:6:1:8:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

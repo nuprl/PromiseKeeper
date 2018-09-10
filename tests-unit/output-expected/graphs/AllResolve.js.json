@@ -1,0 +1,285 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(AllResolve.js:3:10:3:28)",
+      "timeStamp": 1523304807845,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(AllResolve.js:3:10:3:28)",
+      "timeStamp": 1523304807846,
+      "data": {
+        "value": "Number 3",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(AllResolve.js:5:10:7:3)",
+      "timeStamp": 1523304807847,
+      "data": {
+        "id": "p1",
+        "associatedOID": "obj5",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(AllResolve.js:8:10:8:64)",
+      "timeStamp": 1523304807848,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 1,
+        "associatedOID": "obj7"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "value",
+      "loc": "(AllResolve.js:8:50:8:61)",
+      "timeStamp": 1523304807848,
+      "data": {
+        "value": "Number 17",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(AllResolve.js:10:1:10:30)",
+      "timeStamp": 1523304807849,
+      "data": {
+        "id": "p3"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 6,
+      "type": "value",
+      "loc": "(AllResolve.js:10:1:10:30)",
+      "timeStamp": 1523304807849,
+      "data": {
+        "value": 1337
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "sync",
+      "loc": "(AllResolve.js:10:1:10:30)",
+      "timeStamp": 1523304807849,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "function",
+      "loc": "(AllResolve.js:10:1:12:3)",
+      "timeStamp": 1523304807850,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "function",
+      "loc": "(AllResolve.js:10:1:12:3)",
+      "timeStamp": 1523304807851,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 10,
+      "type": "promise",
+      "loc": "(AllResolve.js:10:1:12:3)",
+      "timeStamp": 1523304807851,
+      "data": {
+        "id": "p4",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 11,
+      "type": "value",
+      "loc": "(AllResolve.js:6:5:6:37)",
+      "timeStamp": 1523304808854,
+      "data": {
+        "value": "String foo",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 12,
+      "type": "value",
+      "loc": "(AllResolve.js:10:1:12:3)",
+      "timeStamp": 1523304808856,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304807846,
+      "loc": "(AllResolve.js:3:10:3:28)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 4,
+      "target": 3,
+      "timeStamp": 1523304807848,
+      "loc": "(AllResolve.js:8:50:8:61)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 0,
+      "target": 7,
+      "timeStamp": 1523304807849,
+      "loc": "(AllResolve.js:10:1:10:30)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "sync",
+      "source": 6,
+      "target": 7,
+      "timeStamp": 1523304807849,
+      "loc": "(AllResolve.js:10:1:10:30)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "sync",
+      "source": 2,
+      "target": 7,
+      "timeStamp": 1523304807849,
+      "loc": "(AllResolve.js:10:1:10:30)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "source": 3,
+      "target": 7,
+      "timeStamp": 1523304807849,
+      "loc": "(AllResolve.js:10:1:10:30)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 6,
+      "type": "react-all",
+      "source": 7,
+      "target": 5,
+      "timeStamp": 1523304807849,
+      "loc": "(AllResolve.js:10:1:10:30)",
+      "label": "resolved",
+      "data": ""
+    },
+    {
+      "id": 7,
+      "type": "register",
+      "source": 5,
+      "target": 8,
+      "timeStamp": 1523304807850,
+      "loc": "(AllResolve.js:10:1:12:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 8,
+      "type": "register",
+      "source": 5,
+      "target": 9,
+      "timeStamp": 1523304807851,
+      "loc": "(AllResolve.js:10:1:12:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 9,
+      "type": "react",
+      "source": 11,
+      "target": 2,
+      "timeStamp": 1523304808854,
+      "loc": "(AllResolve.js:6:5:6:37)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 10,
+      "type": "react",
+      "source": 12,
+      "target": 10,
+      "timeStamp": 1523304808856,
+      "loc": "(AllResolve.js:10:1:12:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 11,
+      "type": "return",
+      "source": 8,
+      "target": 12,
+      "timeStamp": 1523304807850,
+      "loc": "(AllResolve.js:10:1:12:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

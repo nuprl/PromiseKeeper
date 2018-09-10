@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(RaceReject1.js:3:10:5:3)",
+      "timeStamp": 1523304816146,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(RaceReject1.js:4:5:4:14)",
+      "timeStamp": 1523304816148,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(RaceReject1.js:6:10:8:3)",
+      "timeStamp": 1523304816149,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1,
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 3,
+      "type": "value",
+      "loc": "(RaceReject1.js:7:5:7:14)",
+      "timeStamp": 1523304816149,
+      "data": {
+        "value": "Number 2",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(RaceReject1.js:10:1:10:23)",
+      "timeStamp": 1523304816154,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "loc": "(RaceReject1.js:10:1:10:23)",
+      "timeStamp": 1523304816154,
+      "data": {
+        "type": "race"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(RaceReject1.js:10:1:13:3)",
+      "timeStamp": 1523304816154,
+      "data": {
+        "name": "",
+        "fID": "obj9",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "function",
+      "loc": "(RaceReject1.js:10:1:13:3)",
+      "timeStamp": 1523304816154,
+      "data": {
+        "name": "_default",
+        "fID": "obj11",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 8,
+      "type": "promise",
+      "loc": "(RaceReject1.js:10:1:13:3)",
+      "timeStamp": 1523304816155,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(RaceReject1.js:10:1:13:3)",
+      "timeStamp": 1523304816155,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304816148,
+      "loc": "(RaceReject1.js:4:5:4:14)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 3,
+      "target": 2,
+      "timeStamp": 1523304816149,
+      "loc": "(RaceReject1.js:7:5:7:14)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 0,
+      "target": 5,
+      "timeStamp": 1523304816154,
+      "loc": "(RaceReject1.js:10:1:10:23)",
+      "label": "[rejected]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "sync",
+      "source": 2,
+      "target": 5,
+      "timeStamp": 1523304816154,
+      "loc": "(RaceReject1.js:10:1:10:23)",
+      "label": "[rejected]",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "react-race",
+      "source": 5,
+      "target": 4,
+      "timeStamp": 1523304816154,
+      "loc": "(RaceReject1.js:10:1:10:23)",
+      "label": "rejected",
+      "data": ""
+    },
+    {
+      "id": 5,
+      "type": "register",
+      "source": 4,
+      "target": 6,
+      "timeStamp": 1523304816154,
+      "loc": "(RaceReject1.js:10:1:13:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 6,
+      "type": "register",
+      "source": 4,
+      "target": 7,
+      "timeStamp": 1523304816154,
+      "loc": "(RaceReject1.js:10:1:13:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 9,
+      "target": 8,
+      "timeStamp": 1523304816155,
+      "loc": "(RaceReject1.js:10:1:13:3)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 7,
+      "target": 9,
+      "timeStamp": 1523304816154,
+      "loc": "(RaceReject1.js:10:1:13:3)",
+      "label": "default return",
+      "data": {}
+    }
+  ]
+}

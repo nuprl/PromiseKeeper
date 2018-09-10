@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(RacePend.js:1:9:1:25)",
+      "timeStamp": 1523304817712,
+      "data": {
+        "id": "p0"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 1,
+      "type": "sync",
+      "loc": "(RacePend.js:1:9:1:25)",
+      "timeStamp": 1523304817712,
+      "data": {
+        "type": "race"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(RacePend.js:3:10:9:3)",
+      "timeStamp": 1523304817715,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(RacePend.js:3:10:9:3)",
+      "timeStamp": 1523304817715,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(RacePend.js:3:10:9:3)",
+      "timeStamp": 1523304817715,
+      "data": {
+        "id": "p1"
+      },
+      "fulfilled": "pending"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react-race",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304817712,
+      "loc": "(RacePend.js:1:9:1:25)",
+      "label": "pending",
+      "data": ""
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304817715,
+      "loc": "(RacePend.js:3:10:9:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304817715,
+      "loc": "(RacePend.js:3:10:9:3)",
+      "label": "on-reject",
+      "data": {}
+    }
+  ]
+}

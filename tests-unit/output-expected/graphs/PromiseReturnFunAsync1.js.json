@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(PromiseReturnFunAsync1.js:7:9:9:3)",
+      "timeStamp": 1523304802673,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "function",
+      "loc": "(PromiseReturnFunAsync1.js:11:1:14:3)",
+      "timeStamp": 1523304802678,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(PromiseReturnFunAsync1.js:11:1:14:3)",
+      "timeStamp": 1523304802678,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(PromiseReturnFunAsync1.js:11:1:14:3)",
+      "timeStamp": 1523304802678,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "value",
+      "loc": "(PromiseReturnFunAsync1.js:8:5:8:35)",
+      "timeStamp": 1523304803681,
+      "data": {
+        "value": "Function",
+        "id": "obj11"
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "value",
+      "loc": "(PromiseReturnFunAsync1.js:11:1:14:3)",
+      "timeStamp": 1523304803682,
+      "data": {
+        "value": "Function",
+        "id": "obj11"
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "register",
+      "source": 0,
+      "target": 1,
+      "timeStamp": 1523304802678,
+      "loc": "(PromiseReturnFunAsync1.js:11:1:14:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304802678,
+      "loc": "(PromiseReturnFunAsync1.js:11:1:14:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "react",
+      "source": 4,
+      "target": 0,
+      "timeStamp": 1523304803681,
+      "loc": "(PromiseReturnFunAsync1.js:8:5:8:35)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 5,
+      "target": 3,
+      "timeStamp": 1523304803682,
+      "loc": "(PromiseReturnFunAsync1.js:11:1:14:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "return",
+      "source": 1,
+      "target": 5,
+      "timeStamp": 1523304802678,
+      "loc": "(PromiseReturnFunAsync1.js:11:1:14:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

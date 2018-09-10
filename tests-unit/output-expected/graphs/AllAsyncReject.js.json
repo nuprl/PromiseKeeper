@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(AllAsyncReject.js:1:27:1:46)",
+      "timeStamp": 1523304810451,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(AllAsyncReject.js:1:27:1:46)",
+      "timeStamp": 1523304810452,
+      "data": {
+        "value": "Number 33",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(AllAsyncReject.js:1:48:1:66)",
+      "timeStamp": 1523304810452,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 3,
+      "type": "value",
+      "loc": "(AllAsyncReject.js:1:48:1:66)",
+      "timeStamp": 1523304810453,
+      "data": {
+        "value": "Number 44",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(AllAsyncReject.js:2:9:2:40)",
+      "timeStamp": 1523304810454,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "loc": "(AllAsyncReject.js:2:9:2:40)",
+      "timeStamp": 1523304810454,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "rejected"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304810452,
+      "loc": "(AllAsyncReject.js:1:27:1:46)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 3,
+      "target": 2,
+      "timeStamp": 1523304810453,
+      "loc": "(AllAsyncReject.js:1:48:1:66)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 0,
+      "target": 5,
+      "timeStamp": 1523304810454,
+      "loc": "(AllAsyncReject.js:2:9:2:40)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "sync",
+      "source": 2,
+      "target": 5,
+      "timeStamp": 1523304810454,
+      "loc": "(AllAsyncReject.js:2:9:2:40)",
+      "label": "[rejected]",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "react-all",
+      "source": 5,
+      "target": 4,
+      "timeStamp": 1523304810454,
+      "loc": "(AllAsyncReject.js:2:9:2:40)",
+      "label": "rejected",
+      "data": ""
+    }
+  ]
+}

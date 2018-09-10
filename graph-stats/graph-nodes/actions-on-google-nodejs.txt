@@ -1,0 +1,16 @@
+project-name: actions-on-google-nodejs
+test-name: actions-sdk-app-test.json
+functions: 28, values: 26, promises: 26, fulfilled: 15, rejected: 11, pending: 0
+test-name: assistant-app-test.json
+functions: 24, values: 16, promises: 16, fulfilled: 16, rejected: 0, pending: 0
+test-name: dialogflow-app-test.json
+functions: 0, values: 2, promises: 2, fulfilled: 0, rejected: 2, pending: 0
+test-name: response-builder-test.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: transactions-test.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: transform-test.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+
+Total:
+functions: 52, values: 44, promises: 44, fulfilled: 31, rejected: 13, pending: 0

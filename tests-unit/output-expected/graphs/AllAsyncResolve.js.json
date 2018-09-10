@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(AllAsyncResolve.js:3:30:3:49)",
+      "timeStamp": 1523304809934,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(AllAsyncResolve.js:3:30:3:49)",
+      "timeStamp": 1523304809936,
+      "data": {
+        "value": "Number 33",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(AllAsyncResolve.js:3:51:3:70)",
+      "timeStamp": 1523304809936,
+      "data": {
+        "id": "p1",
+        "associatedOID": "obj5",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 3,
+      "type": "value",
+      "loc": "(AllAsyncResolve.js:3:51:3:70)",
+      "timeStamp": 1523304809936,
+      "data": {
+        "value": "Number 44",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(AllAsyncResolve.js:5:9:5:43)",
+      "timeStamp": 1523304809937,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "loc": "(AllAsyncResolve.js:5:9:5:43)",
+      "timeStamp": 1523304809937,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "resolved"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304809936,
+      "loc": "(AllAsyncResolve.js:3:30:3:49)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 3,
+      "target": 2,
+      "timeStamp": 1523304809936,
+      "loc": "(AllAsyncResolve.js:3:51:3:70)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 0,
+      "target": 5,
+      "timeStamp": 1523304809937,
+      "loc": "(AllAsyncResolve.js:5:9:5:43)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "sync",
+      "source": 2,
+      "target": 5,
+      "timeStamp": 1523304809937,
+      "loc": "(AllAsyncResolve.js:5:9:5:43)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "react-all",
+      "source": 5,
+      "target": 4,
+      "timeStamp": 1523304809937,
+      "loc": "(AllAsyncResolve.js:5:9:5:43)",
+      "label": "resolved",
+      "data": ""
+    }
+  ]
+}

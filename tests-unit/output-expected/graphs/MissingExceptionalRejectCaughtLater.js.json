@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:2:10:4:3)",
+      "timeStamp": 1523304840847,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:3:5:3:16)",
+      "timeStamp": 1523304840848,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:7:3)",
+      "timeStamp": 1523304840852,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:7:3)",
+      "timeStamp": 1523304840852,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:7:3)",
+      "timeStamp": 1523304840852,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:10:3)",
+      "timeStamp": 1523304840852,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:10:3)",
+      "timeStamp": 1523304840852,
+      "data": {
+        "name": "",
+        "fID": "obj13",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:10:3)",
+      "timeStamp": 1523304840852,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:7:3)",
+      "timeStamp": 1523304840855,
+      "data": {
+        "value": "Error",
+        "id": "obj17"
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:10:3)",
+      "timeStamp": 1523304840857,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304840848,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:3:5:3:16)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304840852,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:7:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304840852,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:7:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 4,
+      "target": 5,
+      "timeStamp": 1523304840852,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:10:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 4,
+      "target": 6,
+      "timeStamp": 1523304840852,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:10:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 8,
+      "target": 4,
+      "timeStamp": 1523304840855,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:7:3)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "return",
+      "source": 2,
+      "target": 8,
+      "timeStamp": 1523304840852,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:7:3)",
+      "label": "throw",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 9,
+      "target": 7,
+      "timeStamp": 1523304840857,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:10:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 6,
+      "target": 9,
+      "timeStamp": 1523304840852,
+      "loc": "(MissingExceptionalRejectCaughtLater.js:5:1:10:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

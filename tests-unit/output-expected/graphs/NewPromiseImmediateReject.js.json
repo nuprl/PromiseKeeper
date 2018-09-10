@@ -1,0 +1,42 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(NewPromiseImmediateReject.js:3:9:3:62)",
+      "timeStamp": 1523304767285,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(NewPromiseImmediateReject.js:3:49:3:59)",
+      "timeStamp": 1523304767287,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304767287,
+      "loc": "(NewPromiseImmediateReject.js:3:49:3:59)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    }
+  ]
+}

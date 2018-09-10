@@ -1,0 +1,157 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(BugDoubleSettle2.js:4:10:7:3)",
+      "timeStamp": 1523304832395,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "function",
+      "loc": "(BugDoubleSettle2.js:9:10:12:3)",
+      "timeStamp": 1523304832399,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(BugDoubleSettle2.js:9:10:12:3)",
+      "timeStamp": 1523304832399,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(BugDoubleSettle2.js:9:10:12:3)",
+      "timeStamp": 1523304832399,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "value",
+      "loc": "(BugDoubleSettle2.js:14:1:14:12)",
+      "timeStamp": 1523304832400,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "value",
+      "loc": "(BugDoubleSettle2.js:15:1:15:11)",
+      "timeStamp": 1523304832400,
+      "data": {
+        "value": "Number 82",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "value",
+      "loc": "(BugDoubleSettle2.js:9:10:12:3)",
+      "timeStamp": 1523304832402,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "register",
+      "source": 0,
+      "target": 1,
+      "timeStamp": 1523304832399,
+      "loc": "(BugDoubleSettle2.js:9:10:12:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304832399,
+      "loc": "(BugDoubleSettle2.js:9:10:12:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "react",
+      "source": 4,
+      "target": 0,
+      "timeStamp": 1523304832400,
+      "loc": "(BugDoubleSettle2.js:14:1:14:12)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 5,
+      "target": 0,
+      "timeStamp": 1523304832400,
+      "loc": "(BugDoubleSettle2.js:15:1:15:11)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": true
+      }
+    },
+    {
+      "id": 4,
+      "type": "react",
+      "source": 6,
+      "target": 3,
+      "timeStamp": 1523304832402,
+      "loc": "(BugDoubleSettle2.js:9:10:12:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 5,
+      "type": "return",
+      "source": 1,
+      "target": 6,
+      "timeStamp": 1523304832399,
+      "loc": "(BugDoubleSettle2.js:9:10:12:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

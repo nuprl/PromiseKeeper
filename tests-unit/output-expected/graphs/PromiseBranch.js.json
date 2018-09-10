@@ -1,0 +1,294 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(PromiseBranch.js:21:8:21:25)",
+      "timeStamp": 1523304823482,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(PromiseBranch.js:21:8:21:25)",
+      "timeStamp": 1523304823484,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(PromiseBranch.js:15:17:15:47)",
+      "timeStamp": 1523304823485,
+      "data": {
+        "id": "p1",
+        "origPID": "p0"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "timeStamp": 1523304823486,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": true,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "function",
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "timeStamp": 1523304823487,
+      "data": {
+        "name": "",
+        "fID": "obj9",
+        "executed": false,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "timeStamp": 1523304823487,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(PromiseBranch.js:21:1:27:3)",
+      "timeStamp": 1523304823489,
+      "data": {
+        "name": "",
+        "fID": "obj13",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "function",
+      "loc": "(PromiseBranch.js:21:1:27:3)",
+      "timeStamp": 1523304823489,
+      "data": {
+        "name": "_default",
+        "fID": "obj15",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 8,
+      "type": "promise",
+      "loc": "(PromiseBranch.js:21:1:27:3)",
+      "timeStamp": 1523304823489,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 9,
+      "type": "promise",
+      "loc": "(PromiseBranch.js:22:12:22:45)",
+      "timeStamp": 1523304823490,
+      "data": {
+        "id": "p4",
+        "associatedOID": "obj19",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 10,
+      "type": "value",
+      "loc": "(PromiseBranch.js:22:12:22:45)",
+      "timeStamp": 1523304823490,
+      "data": {
+        "value": "String targetResolved",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 11,
+      "type": "value",
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "timeStamp": 1523304823490,
+      "data": {
+        "value": "String targetResolved",
+        "id": "p4"
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 12,
+      "type": "value",
+      "loc": "(PromiseBranch.js:21:1:27:3)",
+      "timeStamp": 1523304823490,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304823484,
+      "loc": "(PromiseBranch.js:21:8:21:25)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "proxy",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304823485,
+      "loc": "(PromiseBranch.js:15:17:15:47)",
+      "label": "proxy",
+      "data": {
+        "id": "p1",
+        "origPID": "p0"
+      }
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 2,
+      "target": 3,
+      "timeStamp": 1523304823486,
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 2,
+      "target": 4,
+      "timeStamp": 1523304823487,
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 5,
+      "target": 6,
+      "timeStamp": 1523304823489,
+      "loc": "(PromiseBranch.js:21:1:27:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "register",
+      "source": 5,
+      "target": 7,
+      "timeStamp": 1523304823489,
+      "loc": "(PromiseBranch.js:21:1:27:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 6,
+      "type": "react",
+      "source": 10,
+      "target": 9,
+      "timeStamp": 1523304823490,
+      "loc": "(PromiseBranch.js:22:12:22:45)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 7,
+      "type": "link",
+      "source": 9,
+      "target": 5,
+      "timeStamp": 1523304823490,
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "label": "link",
+      "data": {}
+    },
+    {
+      "id": 8,
+      "type": "react",
+      "source": 11,
+      "target": 5,
+      "timeStamp": 1523304823490,
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 9,
+      "type": "return",
+      "source": 3,
+      "target": 11,
+      "timeStamp": 1523304823486,
+      "loc": "(PromiseBranch.js:18:12:18:45)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 10,
+      "type": "react",
+      "source": 12,
+      "target": 8,
+      "timeStamp": 1523304823490,
+      "loc": "(PromiseBranch.js:21:1:27:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 11,
+      "type": "return",
+      "source": 6,
+      "target": 12,
+      "timeStamp": 1523304823489,
+      "loc": "(PromiseBranch.js:21:1:27:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

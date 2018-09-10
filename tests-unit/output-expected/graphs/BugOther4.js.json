@@ -1,0 +1,219 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(BugOther4.js:1:10:1:28)",
+      "timeStamp": 1523304843458,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(BugOther4.js:1:10:1:28)",
+      "timeStamp": 1523304843460,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(BugOther4.js:4:10:4:25)",
+      "timeStamp": 1523304843462,
+      "data": {
+        "name": "_default",
+        "fID": "obj5",
+        "executed": false
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(BugOther4.js:4:10:4:25)",
+      "timeStamp": 1523304843462,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": true
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(BugOther4.js:4:10:4:25)",
+      "timeStamp": 1523304843462,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(BugOther4.js:6:10:9:3)",
+      "timeStamp": 1523304843462,
+      "data": {
+        "name": "_default",
+        "fID": "obj11",
+        "executed": false
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(BugOther4.js:6:10:9:3)",
+      "timeStamp": 1523304843463,
+      "data": {
+        "name": "",
+        "fID": "obj13",
+        "executed": true
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(BugOther4.js:6:10:9:3)",
+      "timeStamp": 1523304843463,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(BugOther4.js:4:10:4:25)",
+      "timeStamp": 1523304843463,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(BugOther4.js:6:10:9:3)",
+      "timeStamp": 1523304843465,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304843460,
+      "loc": "(BugOther4.js:1:10:1:28)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304843462,
+      "loc": "(BugOther4.js:4:10:4:25)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304843462,
+      "loc": "(BugOther4.js:4:10:4:25)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 4,
+      "target": 5,
+      "timeStamp": 1523304843462,
+      "loc": "(BugOther4.js:6:10:9:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 4,
+      "target": 6,
+      "timeStamp": 1523304843463,
+      "loc": "(BugOther4.js:6:10:9:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 8,
+      "target": 4,
+      "timeStamp": 1523304843463,
+      "loc": "(BugOther4.js:4:10:4:25)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "return",
+      "source": 3,
+      "target": 8,
+      "timeStamp": 1523304843462,
+      "loc": "(BugOther4.js:4:10:4:25)",
+      "label": "default return",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 9,
+      "target": 7,
+      "timeStamp": 1523304843465,
+      "loc": "(BugOther4.js:6:10:9:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 6,
+      "target": 9,
+      "timeStamp": 1523304843463,
+      "loc": "(BugOther4.js:6:10:9:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(BrokenPromiseChain.js:2:13:4:7)",
+      "timeStamp": 1523304835041,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "function",
+      "loc": "(BrokenPromiseChain.js:5:5:7:7)",
+      "timeStamp": 1523304835046,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(BrokenPromiseChain.js:5:5:7:7)",
+      "timeStamp": 1523304835046,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(BrokenPromiseChain.js:5:5:7:7)",
+      "timeStamp": 1523304835046,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "function",
+      "loc": "(BrokenPromiseChain.js:11:1:13:3)",
+      "timeStamp": 1523304835046,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(BrokenPromiseChain.js:11:1:13:3)",
+      "timeStamp": 1523304835046,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "promise",
+      "loc": "(BrokenPromiseChain.js:11:1:13:3)",
+      "timeStamp": 1523304835046,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 7,
+      "type": "value",
+      "loc": "(BrokenPromiseChain.js:3:9:3:33)",
+      "timeStamp": 1523304835144,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(BrokenPromiseChain.js:5:5:7:7)",
+      "timeStamp": 1523304835145,
+      "data": {
+        "value": "String hello",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(BrokenPromiseChain.js:11:1:13:3)",
+      "timeStamp": 1523304835146,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "register",
+      "source": 0,
+      "target": 1,
+      "timeStamp": 1523304835046,
+      "loc": "(BrokenPromiseChain.js:5:5:7:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304835046,
+      "loc": "(BrokenPromiseChain.js:5:5:7:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 4,
+      "timeStamp": 1523304835046,
+      "loc": "(BrokenPromiseChain.js:11:1:13:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 0,
+      "target": 5,
+      "timeStamp": 1523304835046,
+      "loc": "(BrokenPromiseChain.js:11:1:13:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "react",
+      "source": 7,
+      "target": 0,
+      "timeStamp": 1523304835144,
+      "loc": "(BrokenPromiseChain.js:3:9:3:33)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 8,
+      "target": 3,
+      "timeStamp": 1523304835145,
+      "loc": "(BrokenPromiseChain.js:5:5:7:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "return",
+      "source": 1,
+      "target": 8,
+      "timeStamp": 1523304835046,
+      "loc": "(BrokenPromiseChain.js:5:5:7:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 9,
+      "target": 6,
+      "timeStamp": 1523304835146,
+      "loc": "(BrokenPromiseChain.js:11:1:13:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 4,
+      "target": 9,
+      "timeStamp": 1523304835046,
+      "loc": "(BrokenPromiseChain.js:11:1:13:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

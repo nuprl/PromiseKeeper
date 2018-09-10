@@ -1,0 +1,28 @@
+project-name: node-rollout
+test-name: test1.json
+functions: 0, values: 31, promises: 125, fulfilled: 31, rejected: 0, pending: 94
+test-name: test10.json
+functions: 0, values: 4, promises: 28, fulfilled: 4, rejected: 0, pending: 24
+test-name: test11.json
+functions: 0, values: 6, promises: 29, fulfilled: 6, rejected: 0, pending: 23
+test-name: test12.json
+functions: 0, values: 16, promises: 73, fulfilled: 16, rejected: 0, pending: 57
+test-name: test2.json
+functions: 0, values: 3, promises: 22, fulfilled: 3, rejected: 0, pending: 19
+test-name: test3.json
+functions: 0, values: 9, promises: 39, fulfilled: 9, rejected: 0, pending: 30
+test-name: test4.json
+functions: 0, values: 4, promises: 25, fulfilled: 4, rejected: 0, pending: 21
+test-name: test5.json
+functions: 0, values: 3, promises: 26, fulfilled: 3, rejected: 0, pending: 23
+test-name: test6.json
+functions: 0, values: 3, promises: 27, fulfilled: 3, rejected: 0, pending: 24
+test-name: test7.json
+functions: 0, values: 3, promises: 26, fulfilled: 3, rejected: 0, pending: 23
+test-name: test8.json
+functions: 0, values: 3, promises: 24, fulfilled: 3, rejected: 0, pending: 21
+test-name: test9.json
+functions: 0, values: 3, promises: 24, fulfilled: 3, rejected: 0, pending: 21
+
+Total:
+functions: 0, values: 88, promises: 468, fulfilled: 88, rejected: 0, pending: 380

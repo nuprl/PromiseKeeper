@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(ExplicitConstructionAntiPattern.js:4:27:4:45)",
+      "timeStamp": 1527877601369,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(ExplicitConstructionAntiPattern.js:4:27:4:45)",
+      "timeStamp": 1527877601370,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(ExplicitConstructionAntiPattern.js:6:24:9:22)",
+      "timeStamp": 1527877601371,
+      "data": {
+        "id": "p1",
+        "associatedOID": "obj5",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(ExplicitConstructionAntiPattern.js:11:9:16:11)",
+      "timeStamp": 1527877601373,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "function",
+      "loc": "(ExplicitConstructionAntiPattern.js:11:9:16:11)",
+      "timeStamp": 1527877601373,
+      "data": {
+        "name": "_default",
+        "fID": "obj9",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(ExplicitConstructionAntiPattern.js:11:9:16:11)",
+      "timeStamp": 1527877601373,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 6,
+      "type": "promise",
+      "loc": "(ExplicitConstructionAntiPattern.js:12:26:14:15)",
+      "timeStamp": 1527877601375,
+      "data": {
+        "id": "p3",
+        "associatedOID": "obj13"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 7,
+      "type": "value",
+      "loc": "(ExplicitConstructionAntiPattern.js:11:9:16:11)",
+      "timeStamp": 1527877601377,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1527877601370,
+      "loc": "(ExplicitConstructionAntiPattern.js:4:27:4:45)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1527877601373,
+      "loc": "(ExplicitConstructionAntiPattern.js:11:9:16:11)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 4,
+      "timeStamp": 1527877601373,
+      "loc": "(ExplicitConstructionAntiPattern.js:11:9:16:11)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "link",
+      "source": 6,
+      "target": 2,
+      "timeStamp": 1527877601375,
+      "loc": "(ExplicitConstructionAntiPattern.js:15:13:15:36)",
+      "label": "link",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "react",
+      "source": 7,
+      "target": 5,
+      "timeStamp": 1527877601377,
+      "loc": "(ExplicitConstructionAntiPattern.js:11:9:16:11)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 5,
+      "type": "return",
+      "source": 3,
+      "target": 7,
+      "timeStamp": 1527877601373,
+      "loc": "(ExplicitConstructionAntiPattern.js:11:9:16:11)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

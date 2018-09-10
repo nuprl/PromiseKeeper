@@ -1,0 +1,6 @@
+project-name: razorpay-node
+test-name: razorpay.spec.json
+functions: 0, values: 0, promises: 25, fulfilled: 0, rejected: 0, pending: 25
+
+Total:
+functions: 0, values: 0, promises: 25, fulfilled: 0, rejected: 0, pending: 25

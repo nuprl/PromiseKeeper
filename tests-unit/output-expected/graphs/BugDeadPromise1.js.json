@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(BugDeadPromise1.js:2:10:4:3)",
+      "timeStamp": 1523304830310,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 1,
+      "type": "function",
+      "loc": "(BugDeadPromise1.js:6:10:10:3)",
+      "timeStamp": 1523304830315,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(BugDeadPromise1.js:6:10:10:3)",
+      "timeStamp": 1523304830315,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(BugDeadPromise1.js:6:10:10:3)",
+      "timeStamp": 1523304830315,
+      "data": {
+        "id": "p1"
+      },
+      "fulfilled": "pending"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "register",
+      "source": 0,
+      "target": 1,
+      "timeStamp": 1523304830315,
+      "loc": "(BugDeadPromise1.js:6:10:10:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304830315,
+      "loc": "(BugDeadPromise1.js:6:10:10:3)",
+      "label": "on-reject",
+      "data": {}
+    }
+  ]
+}

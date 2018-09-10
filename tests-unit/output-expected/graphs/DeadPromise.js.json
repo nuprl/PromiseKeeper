@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(DeadPromise.js:3:9:6:3)",
+      "timeStamp": 1523304843990,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 1,
+      "type": "function",
+      "loc": "(DeadPromise.js:7:1:7:38)",
+      "timeStamp": 1523304843994,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(DeadPromise.js:7:1:7:38)",
+      "timeStamp": 1523304843994,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(DeadPromise.js:7:1:7:38)",
+      "timeStamp": 1523304843994,
+      "data": {
+        "id": "p1"
+      },
+      "fulfilled": "pending"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "register",
+      "source": 0,
+      "target": 1,
+      "timeStamp": 1523304843994,
+      "loc": "(DeadPromise.js:7:1:7:38)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304843994,
+      "loc": "(DeadPromise.js:7:1:7:38)",
+      "label": "on-reject",
+      "data": {}
+    }
+  ]
+}

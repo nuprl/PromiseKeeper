@@ -1,0 +1,54 @@
+{
+  "graph": {
+    "label": "sample-graph",
+    "meta-data": {
+      "sample-field": "sample-value"
+    },
+    "nodes": [
+      {
+        "id": "node1",
+        "type": "function",
+        "data": {
+          "file": "",
+          "lineNumber": "",
+          "args": []
+        }
+      },
+      {
+        "id": "node2",
+        "type": "value",
+        "data": {
+          "value": ""
+        }
+      },
+      {
+        "id": "node3",
+        "type": "promise",
+        "data": {
+          "id": ""
+        }
+      }
+    ],
+    "edges": [
+      {
+        "id": "",
+        "type": "resolve/reject/onresolve/onreject/link",
+        "source": "",
+        "target": "",
+        "timeStamp": "",
+        "data": {
+        }
+      },
+      {
+        "id": "",
+        "type": "react/register/link/return",
+        "label": "resolve or reject for react and register. n/a for link/return",
+        "source": "",
+        "target": "",
+        "timeStamp": "",
+        "data": {
+        }
+      }
+    ]
+  }
+}

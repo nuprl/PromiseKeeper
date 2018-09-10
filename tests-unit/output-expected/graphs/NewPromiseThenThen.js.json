@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(NewPromiseThenThen.js:3:9:3:63)",
+      "timeStamp": 1523304769504,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(NewPromiseThenThen.js:3:49:3:60)",
+      "timeStamp": 1523304769505,
+      "data": {
+        "value": "Number 42",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(NewPromiseThenThen.js:4:10:7:3)",
+      "timeStamp": 1523304769509,
+      "data": {
+        "name": "f1",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(NewPromiseThenThen.js:4:10:7:3)",
+      "timeStamp": 1523304769509,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(NewPromiseThenThen.js:4:10:7:3)",
+      "timeStamp": 1523304769509,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(NewPromiseThenThen.js:8:10:11:3)",
+      "timeStamp": 1523304769509,
+      "data": {
+        "name": "f2",
+        "fID": "obj11",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(NewPromiseThenThen.js:8:10:11:3)",
+      "timeStamp": 1523304769510,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(NewPromiseThenThen.js:8:10:11:3)",
+      "timeStamp": 1523304769510,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(NewPromiseThenThen.js:4:10:7:3)",
+      "timeStamp": 1523304769512,
+      "data": {
+        "value": "Number 84",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(NewPromiseThenThen.js:8:10:11:3)",
+      "timeStamp": 1523304769512,
+      "data": {
+        "value": "Number 85",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304769505,
+      "loc": "(NewPromiseThenThen.js:3:49:3:60)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304769509,
+      "loc": "(NewPromiseThenThen.js:4:10:7:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304769509,
+      "loc": "(NewPromiseThenThen.js:4:10:7:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 4,
+      "target": 5,
+      "timeStamp": 1523304769509,
+      "loc": "(NewPromiseThenThen.js:8:10:11:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 4,
+      "target": 6,
+      "timeStamp": 1523304769510,
+      "loc": "(NewPromiseThenThen.js:8:10:11:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 8,
+      "target": 4,
+      "timeStamp": 1523304769512,
+      "loc": "(NewPromiseThenThen.js:4:10:7:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "return",
+      "source": 2,
+      "target": 8,
+      "timeStamp": 1523304769509,
+      "loc": "(NewPromiseThenThen.js:4:10:7:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 9,
+      "target": 7,
+      "timeStamp": 1523304769512,
+      "loc": "(NewPromiseThenThen.js:8:10:11:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 5,
+      "target": 9,
+      "timeStamp": 1523304769509,
+      "loc": "(NewPromiseThenThen.js:8:10:11:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

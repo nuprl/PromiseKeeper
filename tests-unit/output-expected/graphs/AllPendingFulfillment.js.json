@@ -1,0 +1,279 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(AllPendingFulfillment.js:1:10:1:28)",
+      "timeStamp": 1523304812459,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(AllPendingFulfillment.js:1:10:1:28)",
+      "timeStamp": 1523304812461,
+      "data": {
+        "value": "Number 3",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(AllPendingFulfillment.js:3:10:3:50)",
+      "timeStamp": 1523304812461,
+      "data": {
+        "id": "p1",
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(AllPendingFulfillment.js:4:10:4:64)",
+      "timeStamp": 1523304812462,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 1,
+        "associatedOID": "obj7"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "value",
+      "loc": "(AllPendingFulfillment.js:4:50:4:61)",
+      "timeStamp": 1523304812462,
+      "data": {
+        "value": "Number 17",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(AllPendingFulfillment.js:6:1:6:30)",
+      "timeStamp": 1523304812463,
+      "data": {
+        "id": "p3"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 6,
+      "type": "value",
+      "loc": "(AllPendingFulfillment.js:6:1:6:30)",
+      "timeStamp": 1523304812463,
+      "data": {
+        "value": 1337
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "sync",
+      "loc": "(AllPendingFulfillment.js:6:1:6:30)",
+      "timeStamp": 1523304812463,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 8,
+      "type": "function",
+      "loc": "(AllPendingFulfillment.js:6:1:8:3)",
+      "timeStamp": 1523304812465,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "function",
+      "loc": "(AllPendingFulfillment.js:6:1:8:3)",
+      "timeStamp": 1523304812465,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 10,
+      "type": "promise",
+      "loc": "(AllPendingFulfillment.js:6:1:8:3)",
+      "timeStamp": 1523304812465,
+      "data": {
+        "id": "p4"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 11,
+      "type": "function",
+      "loc": "(AllPendingFulfillment.js:6:1:10:3)",
+      "timeStamp": 1523304812465,
+      "data": {
+        "name": "_default",
+        "fID": "obj17",
+        "executed": false
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 12,
+      "type": "function",
+      "loc": "(AllPendingFulfillment.js:6:1:10:3)",
+      "timeStamp": 1523304812465,
+      "data": {
+        "name": "",
+        "fID": "obj19",
+        "executed": false
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 13,
+      "type": "promise",
+      "loc": "(AllPendingFulfillment.js:6:1:10:3)",
+      "timeStamp": 1523304812465,
+      "data": {
+        "id": "p5"
+      },
+      "fulfilled": "pending"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304812461,
+      "loc": "(AllPendingFulfillment.js:1:10:1:28)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 4,
+      "target": 3,
+      "timeStamp": 1523304812462,
+      "loc": "(AllPendingFulfillment.js:4:50:4:61)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 0,
+      "target": 7,
+      "timeStamp": 1523304812463,
+      "loc": "(AllPendingFulfillment.js:6:1:6:30)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "sync",
+      "source": 6,
+      "target": 7,
+      "timeStamp": 1523304812463,
+      "loc": "(AllPendingFulfillment.js:6:1:6:30)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "sync",
+      "source": 2,
+      "target": 7,
+      "timeStamp": 1523304812463,
+      "loc": "(AllPendingFulfillment.js:6:1:6:30)",
+      "label": "[pending]",
+      "data": ""
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "source": 3,
+      "target": 7,
+      "timeStamp": 1523304812463,
+      "loc": "(AllPendingFulfillment.js:6:1:6:30)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 6,
+      "type": "react-all",
+      "source": 7,
+      "target": 5,
+      "timeStamp": 1523304812463,
+      "loc": "(AllPendingFulfillment.js:6:1:6:30)",
+      "label": "pending",
+      "data": ""
+    },
+    {
+      "id": 7,
+      "type": "register",
+      "source": 5,
+      "target": 8,
+      "timeStamp": 1523304812465,
+      "loc": "(AllPendingFulfillment.js:6:1:8:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 8,
+      "type": "register",
+      "source": 5,
+      "target": 9,
+      "timeStamp": 1523304812465,
+      "loc": "(AllPendingFulfillment.js:6:1:8:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 9,
+      "type": "register",
+      "source": 10,
+      "target": 11,
+      "timeStamp": 1523304812465,
+      "loc": "(AllPendingFulfillment.js:6:1:10:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 10,
+      "type": "register",
+      "source": 10,
+      "target": 12,
+      "timeStamp": 1523304812465,
+      "loc": "(AllPendingFulfillment.js:6:1:10:3)",
+      "label": "on-reject",
+      "data": {}
+    }
+  ]
+}

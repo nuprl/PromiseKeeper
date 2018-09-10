@@ -1,0 +1,367 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "timeStamp": 1523304809405,
+      "data": {
+        "id": "p0"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "timeStamp": 1523304809405,
+      "data": {
+        "value": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "timeStamp": 1523304809405,
+      "data": {
+        "value": 2
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "timeStamp": 1523304809405,
+      "data": {
+        "value": 3
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "sync",
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "timeStamp": 1523304809405,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(AllResolveAndReject.js:4:30:4:50)",
+      "timeStamp": 1523304809405,
+      "data": {
+        "id": "p1",
+        "associatedOID": "obj5",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 6,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:4:30:4:50)",
+      "timeStamp": 1523304809406,
+      "data": {
+        "value": "Number 444",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "timeStamp": 1523304809406,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "timeStamp": 1523304809406,
+      "data": {
+        "value": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "timeStamp": 1523304809406,
+      "data": {
+        "value": 2
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 10,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "timeStamp": 1523304809406,
+      "data": {
+        "value": 3
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 11,
+      "type": "sync",
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "timeStamp": 1523304809406,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 12,
+      "type": "promise",
+      "loc": "(AllResolveAndReject.js:6:30:6:49)",
+      "timeStamp": 1523304809406,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 13,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:6:30:6:49)",
+      "timeStamp": 1523304809407,
+      "data": {
+        "value": "Number 555",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 14,
+      "type": "promise",
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "timeStamp": 1523304809407,
+      "data": {
+        "id": "p4"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 15,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "timeStamp": 1523304809407,
+      "data": {
+        "value": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 16,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "timeStamp": 1523304809407,
+      "data": {
+        "value": 2
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 17,
+      "type": "value",
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "timeStamp": 1523304809407,
+      "data": {
+        "value": 3
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 18,
+      "type": "sync",
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "timeStamp": 1523304809407,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "rejected"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "sync",
+      "source": 1,
+      "target": 4,
+      "timeStamp": 1523304809405,
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 1,
+      "type": "sync",
+      "source": 2,
+      "target": 4,
+      "timeStamp": 1523304809405,
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 3,
+      "target": 4,
+      "timeStamp": 1523304809405,
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "react-all",
+      "source": 4,
+      "target": 0,
+      "timeStamp": 1523304809405,
+      "loc": "(AllResolveAndReject.js:2:9:2:29)",
+      "label": "resolved",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "react",
+      "source": 6,
+      "target": 5,
+      "timeStamp": 1523304809406,
+      "loc": "(AllResolveAndReject.js:4:30:4:50)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "source": 8,
+      "target": 11,
+      "timeStamp": 1523304809406,
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 6,
+      "type": "sync",
+      "source": 9,
+      "target": 11,
+      "timeStamp": 1523304809406,
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 7,
+      "type": "sync",
+      "source": 10,
+      "target": 11,
+      "timeStamp": 1523304809406,
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 8,
+      "type": "sync",
+      "source": 5,
+      "target": 11,
+      "timeStamp": 1523304809406,
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 9,
+      "type": "react-all",
+      "source": 11,
+      "target": 7,
+      "timeStamp": 1523304809406,
+      "loc": "(AllResolveAndReject.js:4:10:4:52)",
+      "label": "resolved",
+      "data": ""
+    },
+    {
+      "id": 10,
+      "type": "react",
+      "source": 13,
+      "target": 12,
+      "timeStamp": 1523304809407,
+      "loc": "(AllResolveAndReject.js:6:30:6:49)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 11,
+      "type": "sync",
+      "source": 15,
+      "target": 18,
+      "timeStamp": 1523304809407,
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 12,
+      "type": "sync",
+      "source": 16,
+      "target": 18,
+      "timeStamp": 1523304809407,
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 13,
+      "type": "sync",
+      "source": 17,
+      "target": 18,
+      "timeStamp": 1523304809407,
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 14,
+      "type": "sync",
+      "source": 12,
+      "target": 18,
+      "timeStamp": 1523304809407,
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "label": "[rejected]",
+      "data": ""
+    },
+    {
+      "id": 15,
+      "type": "react-all",
+      "source": 18,
+      "target": 14,
+      "timeStamp": 1523304809407,
+      "loc": "(AllResolveAndReject.js:6:10:6:51)",
+      "label": "rejected",
+      "data": ""
+    }
+  ]
+}

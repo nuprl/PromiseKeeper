@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(ReturnNewBluebirdPromiseThen.js:6:12:9:7)",
+      "timeStamp": 1523304826700,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj3"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(ReturnNewBluebirdPromiseThen.js:8:9:8:18)",
+      "timeStamp": 1523304826703,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(ReturnNewBluebirdPromiseThen.js:13:12:15:7)",
+      "timeStamp": 1523304826705,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(ReturnNewBluebirdPromiseThen.js:13:12:15:7)",
+      "timeStamp": 1523304826705,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(ReturnNewBluebirdPromiseThen.js:13:12:15:7)",
+      "timeStamp": 1523304826706,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "value",
+      "loc": "(ReturnNewBluebirdPromiseThen.js:13:12:15:7)",
+      "timeStamp": 1523304826707,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304826703,
+      "loc": "(ReturnNewBluebirdPromiseThen.js:8:9:8:18)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304826705,
+      "loc": "(ReturnNewBluebirdPromiseThen.js:13:12:15:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304826705,
+      "loc": "(ReturnNewBluebirdPromiseThen.js:13:12:15:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 5,
+      "target": 4,
+      "timeStamp": 1523304826707,
+      "loc": "(ReturnNewBluebirdPromiseThen.js:13:12:15:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "return",
+      "source": 2,
+      "target": 5,
+      "timeStamp": 1523304826705,
+      "loc": "(ReturnNewBluebirdPromiseThen.js:13:12:15:7)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

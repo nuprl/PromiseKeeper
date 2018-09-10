@@ -1,0 +1,1271 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845537,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845539,
+      "data": {
+        "value": "Number 0",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845539,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 3,
+      "type": "value",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "id": "p2",
+        "associatedOID": "obj7",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "value",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 2",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "promise",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "id": "p3",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 7,
+      "type": "value",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 3",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 8,
+      "type": "promise",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "id": "p4",
+        "associatedOID": "obj11",
+        "fulfillCounter": 4
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 4",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 10,
+      "type": "promise",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "id": "p5",
+        "fulfillCounter": 5
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 11,
+      "type": "value",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 5",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 12,
+      "type": "promise",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "id": "p6",
+        "associatedOID": "obj15",
+        "fulfillCounter": 6
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 13,
+      "type": "value",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 6",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 14,
+      "type": "promise",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "id": "p7",
+        "fulfillCounter": 7
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 15,
+      "type": "value",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 7",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 16,
+      "type": "promise",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "id": "p8",
+        "associatedOID": "obj19",
+        "fulfillCounter": 8
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 17,
+      "type": "value",
+      "loc": "(Loop1.js:5:23:5:41)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 8",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 18,
+      "type": "promise",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "id": "p9",
+        "fulfillCounter": 9
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 19,
+      "type": "value",
+      "loc": "(Loop1.js:7:23:7:40)",
+      "timeStamp": 1523304845540,
+      "data": {
+        "value": "Number 9",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 20,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845543,
+      "data": {
+        "name": "",
+        "fID": "obj23",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 21,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845543,
+      "data": {
+        "name": "",
+        "fID": "obj25",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 22,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845543,
+      "data": {
+        "id": "p10",
+        "fulfillCounter": 10
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 23,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845543,
+      "data": {
+        "name": "",
+        "fID": "obj29",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 24,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845543,
+      "data": {
+        "name": "",
+        "fID": "obj31",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 25,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "id": "p11",
+        "fulfillCounter": 11
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 26,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "name": "",
+        "fID": "obj35",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 27,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "name": "",
+        "fID": "obj37",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 28,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "id": "p12",
+        "fulfillCounter": 12
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 29,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "name": "",
+        "fID": "obj41",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 30,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "name": "",
+        "fID": "obj43",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 31,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "id": "p13",
+        "fulfillCounter": 13
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 32,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "name": "",
+        "fID": "obj47",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 33,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "name": "",
+        "fID": "obj49",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 34,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "id": "p14",
+        "fulfillCounter": 14
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 35,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "name": "",
+        "fID": "obj53",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 36,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "name": "",
+        "fID": "obj55",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 37,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845544,
+      "data": {
+        "id": "p15",
+        "fulfillCounter": 15
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 38,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "name": "",
+        "fID": "obj59",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 39,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "name": "",
+        "fID": "obj61",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 40,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "id": "p16",
+        "fulfillCounter": 16
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 41,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "name": "",
+        "fID": "obj65",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 42,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "name": "",
+        "fID": "obj67",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 43,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "id": "p17",
+        "fulfillCounter": 17
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 44,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "name": "",
+        "fID": "obj71",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 45,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "name": "",
+        "fID": "obj73",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 46,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "id": "p18",
+        "fulfillCounter": 18
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 47,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "name": "",
+        "fID": "obj77",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 48,
+      "type": "function",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "name": "",
+        "fID": "obj79",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 49,
+      "type": "promise",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845545,
+      "data": {
+        "id": "p19",
+        "fulfillCounter": 19
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 50,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845546,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 51,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845547,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 52,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845547,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 53,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845547,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 54,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845547,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 55,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845547,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 56,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845547,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 57,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845547,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 58,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845548,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 59,
+      "type": "value",
+      "loc": "(Loop1.js:12:5:16:7)",
+      "timeStamp": 1523304845548,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304845539,
+      "loc": "(Loop1.js:5:23:5:41)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 3,
+      "target": 2,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:7:23:7:40)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 2,
+      "type": "react",
+      "source": 5,
+      "target": 4,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:5:23:5:41)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 7,
+      "target": 6,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:7:23:7:40)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "react",
+      "source": 9,
+      "target": 8,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:5:23:5:41)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 11,
+      "target": 10,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:7:23:7:40)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "react",
+      "source": 13,
+      "target": 12,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:5:23:5:41)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 15,
+      "target": 14,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:7:23:7:40)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "react",
+      "source": 17,
+      "target": 16,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:5:23:5:41)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 9,
+      "type": "react",
+      "source": 19,
+      "target": 18,
+      "timeStamp": 1523304845540,
+      "loc": "(Loop1.js:7:23:7:40)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 10,
+      "type": "register",
+      "source": 0,
+      "target": 20,
+      "timeStamp": 1523304845543,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 11,
+      "type": "register",
+      "source": 0,
+      "target": 21,
+      "timeStamp": 1523304845543,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 12,
+      "type": "register",
+      "source": 2,
+      "target": 23,
+      "timeStamp": 1523304845543,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 13,
+      "type": "register",
+      "source": 2,
+      "target": 24,
+      "timeStamp": 1523304845543,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 14,
+      "type": "register",
+      "source": 4,
+      "target": 26,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 15,
+      "type": "register",
+      "source": 4,
+      "target": 27,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 16,
+      "type": "register",
+      "source": 6,
+      "target": 29,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 17,
+      "type": "register",
+      "source": 6,
+      "target": 30,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 18,
+      "type": "register",
+      "source": 8,
+      "target": 32,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 19,
+      "type": "register",
+      "source": 8,
+      "target": 33,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 20,
+      "type": "register",
+      "source": 10,
+      "target": 35,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 21,
+      "type": "register",
+      "source": 10,
+      "target": 36,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 22,
+      "type": "register",
+      "source": 12,
+      "target": 38,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 23,
+      "type": "register",
+      "source": 12,
+      "target": 39,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 24,
+      "type": "register",
+      "source": 14,
+      "target": 41,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 25,
+      "type": "register",
+      "source": 14,
+      "target": 42,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 26,
+      "type": "register",
+      "source": 16,
+      "target": 44,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 27,
+      "type": "register",
+      "source": 16,
+      "target": 45,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 28,
+      "type": "register",
+      "source": 18,
+      "target": 47,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 29,
+      "type": "register",
+      "source": 18,
+      "target": 48,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 30,
+      "type": "react",
+      "source": 50,
+      "target": 22,
+      "timeStamp": 1523304845546,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 31,
+      "type": "return",
+      "source": 20,
+      "target": 50,
+      "timeStamp": 1523304845543,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 32,
+      "type": "react",
+      "source": 51,
+      "target": 25,
+      "timeStamp": 1523304845547,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 33,
+      "type": "return",
+      "source": 24,
+      "target": 51,
+      "timeStamp": 1523304845543,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 34,
+      "type": "react",
+      "source": 52,
+      "target": 28,
+      "timeStamp": 1523304845547,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 35,
+      "type": "return",
+      "source": 26,
+      "target": 52,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 36,
+      "type": "react",
+      "source": 53,
+      "target": 31,
+      "timeStamp": 1523304845547,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 37,
+      "type": "return",
+      "source": 30,
+      "target": 53,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 38,
+      "type": "react",
+      "source": 54,
+      "target": 34,
+      "timeStamp": 1523304845547,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 39,
+      "type": "return",
+      "source": 32,
+      "target": 54,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 40,
+      "type": "react",
+      "source": 55,
+      "target": 37,
+      "timeStamp": 1523304845547,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 41,
+      "type": "return",
+      "source": 36,
+      "target": 55,
+      "timeStamp": 1523304845544,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 42,
+      "type": "react",
+      "source": 56,
+      "target": 40,
+      "timeStamp": 1523304845547,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 43,
+      "type": "return",
+      "source": 38,
+      "target": 56,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 44,
+      "type": "react",
+      "source": 57,
+      "target": 43,
+      "timeStamp": 1523304845547,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 45,
+      "type": "return",
+      "source": 42,
+      "target": 57,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 46,
+      "type": "react",
+      "source": 58,
+      "target": 46,
+      "timeStamp": 1523304845548,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 47,
+      "type": "return",
+      "source": 44,
+      "target": 58,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 48,
+      "type": "react",
+      "source": 59,
+      "target": 49,
+      "timeStamp": 1523304845548,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 49,
+      "type": "return",
+      "source": 48,
+      "target": 59,
+      "timeStamp": 1523304845545,
+      "loc": "(Loop1.js:12:5:16:7)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

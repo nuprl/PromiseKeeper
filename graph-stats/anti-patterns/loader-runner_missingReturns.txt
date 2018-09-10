@@ -1,0 +1,15 @@
+Project <loader-runner> contains <12> missing returns
+<6> missing returns after refinement
+#8 [undefined value] >> #4 [fulfilled promise p1]
+#9 [undefined value] >> #7 [fulfilled promise p2]
+#18 [undefined value] >> #14 [fulfilled promise p4]
+#19 [undefined value] >> #17 [fulfilled promise p5]
+#8 [undefined value] >> #4 [fulfilled promise p1]
+#9 [undefined value] >> #7 [fulfilled promise p2]
+#8 [undefined value] >> #4 [fulfilled promise p1]
+#9 [undefined value] >> #7 [fulfilled promise p2]
+#18 [undefined value] >> #14 [fulfilled promise p4]
+#19 [undefined value] >> #17 [fulfilled promise p5]
+#8 [undefined value] >> #4 [fulfilled promise p1]
+#9 [undefined value] >> #7 [fulfilled promise p2]
+

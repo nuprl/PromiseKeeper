@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(MultipleThens1.js:1:9:1:29)",
+      "timeStamp": 1523304836719,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(MultipleThens1.js:1:9:1:29)",
+      "timeStamp": 1523304836720,
+      "data": {
+        "value": "String a",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(MultipleThens1.js:2:1:4:3)",
+      "timeStamp": 1523304836722,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(MultipleThens1.js:2:1:4:3)",
+      "timeStamp": 1523304836722,
+      "data": {
+        "name": "_default",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(MultipleThens1.js:2:1:4:3)",
+      "timeStamp": 1523304836722,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(MultipleThens1.js:5:1:7:3)",
+      "timeStamp": 1523304836723,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(MultipleThens1.js:5:1:7:3)",
+      "timeStamp": 1523304836723,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(MultipleThens1.js:5:1:7:3)",
+      "timeStamp": 1523304836723,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(MultipleThens1.js:2:1:4:3)",
+      "timeStamp": 1523304836724,
+      "data": {
+        "value": "String b",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(MultipleThens1.js:5:1:7:3)",
+      "timeStamp": 1523304836724,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304836720,
+      "loc": "(MultipleThens1.js:1:9:1:29)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304836722,
+      "loc": "(MultipleThens1.js:2:1:4:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304836722,
+      "loc": "(MultipleThens1.js:2:1:4:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 0,
+      "target": 5,
+      "timeStamp": 1523304836723,
+      "loc": "(MultipleThens1.js:5:1:7:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 0,
+      "target": 6,
+      "timeStamp": 1523304836723,
+      "loc": "(MultipleThens1.js:5:1:7:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 8,
+      "target": 4,
+      "timeStamp": 1523304836724,
+      "loc": "(MultipleThens1.js:2:1:4:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "return",
+      "source": 2,
+      "target": 8,
+      "timeStamp": 1523304836722,
+      "loc": "(MultipleThens1.js:2:1:4:3)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 9,
+      "target": 7,
+      "timeStamp": 1523304836724,
+      "loc": "(MultipleThens1.js:5:1:7:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 5,
+      "target": 9,
+      "timeStamp": 1523304836723,
+      "loc": "(MultipleThens1.js:5:1:7:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

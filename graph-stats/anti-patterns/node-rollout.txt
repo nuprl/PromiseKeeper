@@ -1,0 +1,3 @@
+project-name: node-rollout
+
+numOfDeadPromise: 380, numOfUndefinedValue: 0, numOfUndefinedValuesRefined: 0, numOfMissingReject: 0, numOfmissingRejectInChain: 0, numOfMultipleThens: 0, numOfRejectedWithoutAReaction: 0, numOfExclusivelyExecutedReactions: 0, numOfDoubleSettles: 0, numOfPendingPromises: 380, numOfPendingSyncNodes: 0, numOfDeadCode: 0

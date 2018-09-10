@@ -1,0 +1,187 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "value",
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "timeStamp": 1523304813534,
+      "data": {
+        "value": "Number 1"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "timeStamp": 1523304813534,
+      "data": {
+        "value": "Number 2"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 2,
+      "type": "value",
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "timeStamp": 1523304813534,
+      "data": {
+        "value": "Number 3"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "timeStamp": 1523304813534,
+      "data": {
+        "id": "p0"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "sync",
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "timeStamp": 1523304813534,
+      "data": {
+        "type": "race"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(RacePrimitivesOnly.js:3:10:9:3)",
+      "timeStamp": 1523304813536,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(RacePrimitivesOnly.js:3:10:9:3)",
+      "timeStamp": 1523304813536,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(RacePrimitivesOnly.js:3:10:9:3)",
+      "timeStamp": 1523304813537,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "value",
+      "loc": "(RacePrimitivesOnly.js:3:10:9:3)",
+      "timeStamp": 1523304813538,
+      "data": {
+        "value": "Number 1",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "sync",
+      "source": 0,
+      "target": 4,
+      "timeStamp": 1523304813534,
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 1,
+      "type": "sync",
+      "source": 1,
+      "target": 4,
+      "timeStamp": 1523304813534,
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 2,
+      "target": 4,
+      "timeStamp": 1523304813534,
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "react-race",
+      "source": 4,
+      "target": 3,
+      "timeStamp": 1523304813534,
+      "loc": "(RacePrimitivesOnly.js:1:9:1:32)",
+      "label": "resolved",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 3,
+      "target": 5,
+      "timeStamp": 1523304813536,
+      "loc": "(RacePrimitivesOnly.js:3:10:9:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "register",
+      "source": 3,
+      "target": 6,
+      "timeStamp": 1523304813536,
+      "loc": "(RacePrimitivesOnly.js:3:10:9:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 6,
+      "type": "react",
+      "source": 8,
+      "target": 7,
+      "timeStamp": 1523304813538,
+      "loc": "(RacePrimitivesOnly.js:3:10:9:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 7,
+      "type": "return",
+      "source": 5,
+      "target": 8,
+      "timeStamp": 1523304813536,
+      "loc": "(RacePrimitivesOnly.js:3:10:9:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

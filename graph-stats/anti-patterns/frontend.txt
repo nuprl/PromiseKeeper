@@ -1,0 +1,3 @@
+project-name: frontend
+
+numOfDeadPromise: 0, numOfUndefinedValue: 0, numOfUndefinedValuesRefined: 0, numOfMissingReject: 0, numOfmissingRejectInChain: 0, numOfMultipleThens: 0, numOfDoubleSettles: 0, numOfPendingPromises: 0, numOfPendingSyncNodes: 0, numOfDeadCode: 0

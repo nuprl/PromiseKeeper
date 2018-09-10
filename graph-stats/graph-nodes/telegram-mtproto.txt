@@ -1,0 +1,8 @@
+project-name: telegram-mtproto
+test-name: config-validation.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+test-name: layout.test.json
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0
+
+Total:
+functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0

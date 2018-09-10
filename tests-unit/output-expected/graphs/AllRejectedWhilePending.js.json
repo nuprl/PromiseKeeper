@@ -1,0 +1,348 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(AllRejectedWhilePending.js:1:10:1:44)",
+      "timeStamp": 1523304812999,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(AllRejectedWhilePending.js:1:10:1:44)",
+      "timeStamp": 1523304813000,
+      "data": {
+        "value": "String immediate reject",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(AllRejectedWhilePending.js:3:10:3:50)",
+      "timeStamp": 1523304813001,
+      "data": {
+        "id": "p1",
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 3,
+      "type": "promise",
+      "loc": "(AllRejectedWhilePending.js:4:10:4:64)",
+      "timeStamp": 1523304813003,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 1,
+        "associatedOID": "obj7"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 4,
+      "type": "value",
+      "loc": "(AllRejectedWhilePending.js:4:50:4:61)",
+      "timeStamp": 1523304813003,
+      "data": {
+        "value": "Number 17",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(AllRejectedWhilePending.js:6:1:6:30)",
+      "timeStamp": 1523304813004,
+      "data": {
+        "id": "p3"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 6,
+      "type": "value",
+      "loc": "(AllRejectedWhilePending.js:6:1:6:30)",
+      "timeStamp": 1523304813004,
+      "data": {
+        "value": 1337
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "sync",
+      "loc": "(AllRejectedWhilePending.js:6:1:6:30)",
+      "timeStamp": 1523304813004,
+      "data": {
+        "type": "all"
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 8,
+      "type": "function",
+      "loc": "(AllRejectedWhilePending.js:6:1:8:3)",
+      "timeStamp": 1523304813006,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 9,
+      "type": "function",
+      "loc": "(AllRejectedWhilePending.js:6:1:8:3)",
+      "timeStamp": 1523304813006,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 10,
+      "type": "promise",
+      "loc": "(AllRejectedWhilePending.js:6:1:8:3)",
+      "timeStamp": 1523304813006,
+      "data": {
+        "id": "p4",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 11,
+      "type": "function",
+      "loc": "(AllRejectedWhilePending.js:6:1:10:3)",
+      "timeStamp": 1523304813006,
+      "data": {
+        "name": "_default",
+        "fID": "obj17",
+        "executed": false
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 12,
+      "type": "function",
+      "loc": "(AllRejectedWhilePending.js:6:1:10:3)",
+      "timeStamp": 1523304813006,
+      "data": {
+        "name": "",
+        "fID": "obj19",
+        "executed": true
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 13,
+      "type": "promise",
+      "loc": "(AllRejectedWhilePending.js:6:1:10:3)",
+      "timeStamp": 1523304813006,
+      "data": {
+        "id": "p5",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 14,
+      "type": "value",
+      "loc": "(AllRejectedWhilePending.js:6:1:8:3)",
+      "timeStamp": 1523304813007,
+      "data": {
+        "value": "String immediate reject",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 15,
+      "type": "value",
+      "loc": "(AllRejectedWhilePending.js:6:1:10:3)",
+      "timeStamp": 1523304813008,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304813000,
+      "loc": "(AllRejectedWhilePending.js:1:10:1:44)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "react",
+      "source": 4,
+      "target": 3,
+      "timeStamp": 1523304813003,
+      "loc": "(AllRejectedWhilePending.js:4:50:4:61)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 2,
+      "type": "sync",
+      "source": 0,
+      "target": 7,
+      "timeStamp": 1523304813004,
+      "loc": "(AllRejectedWhilePending.js:6:1:6:30)",
+      "label": "[rejected]",
+      "data": ""
+    },
+    {
+      "id": 3,
+      "type": "sync",
+      "source": 6,
+      "target": 7,
+      "timeStamp": 1523304813004,
+      "loc": "(AllRejectedWhilePending.js:6:1:6:30)",
+      "label": "[value]",
+      "data": ""
+    },
+    {
+      "id": 4,
+      "type": "sync",
+      "source": 2,
+      "target": 7,
+      "timeStamp": 1523304813004,
+      "loc": "(AllRejectedWhilePending.js:6:1:6:30)",
+      "label": "[pending]",
+      "data": ""
+    },
+    {
+      "id": 5,
+      "type": "sync",
+      "source": 3,
+      "target": 7,
+      "timeStamp": 1523304813004,
+      "loc": "(AllRejectedWhilePending.js:6:1:6:30)",
+      "label": "[resolved]",
+      "data": ""
+    },
+    {
+      "id": 6,
+      "type": "react-all",
+      "source": 7,
+      "target": 5,
+      "timeStamp": 1523304813004,
+      "loc": "(AllRejectedWhilePending.js:6:1:6:30)",
+      "label": "rejected",
+      "data": ""
+    },
+    {
+      "id": 7,
+      "type": "register",
+      "source": 5,
+      "target": 8,
+      "timeStamp": 1523304813006,
+      "loc": "(AllRejectedWhilePending.js:6:1:8:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 8,
+      "type": "register",
+      "source": 5,
+      "target": 9,
+      "timeStamp": 1523304813006,
+      "loc": "(AllRejectedWhilePending.js:6:1:8:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 9,
+      "type": "register",
+      "source": 10,
+      "target": 11,
+      "timeStamp": 1523304813006,
+      "loc": "(AllRejectedWhilePending.js:6:1:10:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 10,
+      "type": "register",
+      "source": 10,
+      "target": 12,
+      "timeStamp": 1523304813006,
+      "loc": "(AllRejectedWhilePending.js:6:1:10:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 11,
+      "type": "react",
+      "source": 14,
+      "target": 10,
+      "timeStamp": 1523304813007,
+      "loc": "(AllRejectedWhilePending.js:6:1:8:3)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 12,
+      "type": "return",
+      "source": 9,
+      "target": 14,
+      "timeStamp": 1523304813006,
+      "loc": "(AllRejectedWhilePending.js:6:1:8:3)",
+      "label": "default return",
+      "data": {}
+    },
+    {
+      "id": 13,
+      "type": "react",
+      "source": 15,
+      "target": 13,
+      "timeStamp": 1523304813008,
+      "loc": "(AllRejectedWhilePending.js:6:1:10:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 14,
+      "type": "return",
+      "source": 12,
+      "target": 15,
+      "timeStamp": 1523304813006,
+      "loc": "(AllRejectedWhilePending.js:6:1:10:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

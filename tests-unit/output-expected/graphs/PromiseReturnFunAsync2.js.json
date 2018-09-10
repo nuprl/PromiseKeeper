@@ -1,0 +1,169 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(PromiseReturnFunAsync2.js:3:10:3:32)",
+      "timeStamp": 1523304804218,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(PromiseReturnFunAsync2.js:3:10:3:32)",
+      "timeStamp": 1523304804220,
+      "data": {
+        "value": "String foo",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(PromiseReturnFunAsync2.js:9:9:11:3)",
+      "timeStamp": 1523304804220,
+      "data": {
+        "id": "p1",
+        "associatedOID": "obj5",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(PromiseReturnFunAsync2.js:13:1:16:3)",
+      "timeStamp": 1523304804224,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "function",
+      "loc": "(PromiseReturnFunAsync2.js:13:1:16:3)",
+      "timeStamp": 1523304804224,
+      "data": {
+        "name": "_default",
+        "fID": "obj9",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(PromiseReturnFunAsync2.js:13:1:16:3)",
+      "timeStamp": 1523304804224,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "rejected"
+    },
+    {
+      "id": 6,
+      "type": "value",
+      "loc": "(PromiseReturnFunAsync2.js:10:5:10:34)",
+      "timeStamp": 1523304805226,
+      "data": {
+        "value": "Function",
+        "id": "obj13"
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "value",
+      "loc": "(PromiseReturnFunAsync2.js:13:1:16:3)",
+      "timeStamp": 1523304805227,
+      "data": {
+        "value": "Function",
+        "id": "obj13"
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304804220,
+      "loc": "(PromiseReturnFunAsync2.js:3:10:3:32)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 2,
+      "target": 3,
+      "timeStamp": 1523304804224,
+      "loc": "(PromiseReturnFunAsync2.js:13:1:16:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 2,
+      "target": 4,
+      "timeStamp": 1523304804224,
+      "loc": "(PromiseReturnFunAsync2.js:13:1:16:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 6,
+      "target": 2,
+      "timeStamp": 1523304805226,
+      "loc": "(PromiseReturnFunAsync2.js:10:5:10:34)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "react",
+      "source": 7,
+      "target": 5,
+      "timeStamp": 1523304805227,
+      "loc": "(PromiseReturnFunAsync2.js:13:1:16:3)",
+      "label": "reject",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 5,
+      "type": "return",
+      "source": 4,
+      "target": 7,
+      "timeStamp": 1523304804224,
+      "loc": "(PromiseReturnFunAsync2.js:13:1:16:3)",
+      "label": "default return",
+      "data": {}
+    }
+  ]
+}

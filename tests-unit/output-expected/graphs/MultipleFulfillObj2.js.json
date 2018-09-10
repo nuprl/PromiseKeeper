@@ -1,0 +1,133 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(MultipleFulfillObj2.js:6:9:8:3)",
+      "timeStamp": 1523304822417,
+      "data": {
+        "id": "p0",
+        "fulfillCounter": 0,
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(MultipleFulfillObj2.js:7:5:7:17)",
+      "timeStamp": 1523304822418,
+      "data": {
+        "value": "Object",
+        "id": "obj3"
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(MultipleFulfillObj2.js:12:10:18:3)",
+      "timeStamp": 1523304822421,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(MultipleFulfillObj2.js:12:10:18:3)",
+      "timeStamp": 1523304822421,
+      "data": {
+        "name": "",
+        "fID": "obj9",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(MultipleFulfillObj2.js:12:10:18:3)",
+      "timeStamp": 1523304822421,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "value",
+      "loc": "(MultipleFulfillObj2.js:12:10:18:3)",
+      "timeStamp": 1523304822423,
+      "data": {
+        "value": "Object",
+        "id": "obj3"
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304822418,
+      "loc": "(MultipleFulfillObj2.js:7:5:7:17)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304822421,
+      "loc": "(MultipleFulfillObj2.js:12:10:18:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304822421,
+      "loc": "(MultipleFulfillObj2.js:12:10:18:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "react",
+      "source": 5,
+      "target": 4,
+      "timeStamp": 1523304822423,
+      "loc": "(MultipleFulfillObj2.js:12:10:18:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 4,
+      "type": "return",
+      "source": 2,
+      "target": 5,
+      "timeStamp": 1523304822421,
+      "loc": "(MultipleFulfillObj2.js:12:10:18:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

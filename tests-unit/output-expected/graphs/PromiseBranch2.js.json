@@ -1,0 +1,270 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(PromiseBranch2.js:27:12:27:29)",
+      "timeStamp": 1523304824042,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(PromiseBranch2.js:27:12:27:29)",
+      "timeStamp": 1523304824043,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "function",
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "timeStamp": 1523304824045,
+      "data": {
+        "name": "",
+        "fID": "obj5",
+        "executed": true,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "timeStamp": 1523304824045,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 0
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "promise",
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "timeStamp": 1523304824045,
+      "data": {
+        "id": "p1",
+        "fulfillCounter": 2
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 5,
+      "type": "function",
+      "loc": "(PromiseBranch2.js:26:1:34:3)",
+      "timeStamp": 1523304824047,
+      "data": {
+        "name": "",
+        "fID": "obj11",
+        "executed": true,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 6,
+      "type": "function",
+      "loc": "(PromiseBranch2.js:26:1:34:3)",
+      "timeStamp": 1523304824047,
+      "data": {
+        "name": "_default",
+        "fID": "obj13",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 7,
+      "type": "promise",
+      "loc": "(PromiseBranch2.js:26:1:34:3)",
+      "timeStamp": 1523304824047,
+      "data": {
+        "id": "p2",
+        "fulfillCounter": 3
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 8,
+      "type": "promise",
+      "loc": "(PromiseBranch2.js:29:12:29:45)",
+      "timeStamp": 1523304824049,
+      "data": {
+        "id": "p3",
+        "associatedOID": "obj17",
+        "fulfillCounter": 1
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 9,
+      "type": "value",
+      "loc": "(PromiseBranch2.js:29:12:29:45)",
+      "timeStamp": 1523304824049,
+      "data": {
+        "value": "String targetResolved",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 10,
+      "type": "value",
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "timeStamp": 1523304824049,
+      "data": {
+        "value": "String targetResolved",
+        "id": "p3"
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 11,
+      "type": "value",
+      "loc": "(PromiseBranch2.js:26:1:34:3)",
+      "timeStamp": 1523304824049,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1523304824043,
+      "loc": "(PromiseBranch2.js:27:12:27:29)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 0,
+      "target": 2,
+      "timeStamp": 1523304824045,
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 0,
+      "target": 3,
+      "timeStamp": 1523304824045,
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 3,
+      "type": "register",
+      "source": 4,
+      "target": 5,
+      "timeStamp": 1523304824047,
+      "loc": "(PromiseBranch2.js:26:1:34:3)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 4,
+      "type": "register",
+      "source": 4,
+      "target": 6,
+      "timeStamp": 1523304824047,
+      "loc": "(PromiseBranch2.js:26:1:34:3)",
+      "label": "on-reject",
+      "data": {}
+    },
+    {
+      "id": 5,
+      "type": "react",
+      "source": 9,
+      "target": 8,
+      "timeStamp": 1523304824049,
+      "loc": "(PromiseBranch2.js:29:12:29:45)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 6,
+      "type": "link",
+      "source": 8,
+      "target": 4,
+      "timeStamp": 1523304824049,
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "label": "link",
+      "data": {}
+    },
+    {
+      "id": 7,
+      "type": "react",
+      "source": 10,
+      "target": 4,
+      "timeStamp": 1523304824049,
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "return",
+      "source": 2,
+      "target": 10,
+      "timeStamp": 1523304824045,
+      "loc": "(PromiseBranch2.js:23:12:23:45)",
+      "label": "return",
+      "data": {}
+    },
+    {
+      "id": 9,
+      "type": "react",
+      "source": 11,
+      "target": 7,
+      "timeStamp": 1523304824049,
+      "loc": "(PromiseBranch2.js:26:1:34:3)",
+      "label": "resolve",
+      "data": {
+        "explicit": "no",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 10,
+      "type": "return",
+      "source": 5,
+      "target": 11,
+      "timeStamp": 1523304824047,
+      "loc": "(PromiseBranch2.js:26:1:34:3)",
+      "label": "return",
+      "data": {}
+    }
+  ]
+}

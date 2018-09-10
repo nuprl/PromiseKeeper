@@ -1,0 +1,109 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "type": "promise",
+      "loc": "(LinkedByResolve2.js:2:10:4:4)",
+      "timeStamp": 1526606797305,
+      "data": {
+        "id": "p0",
+        "associatedOID": "obj3",
+        "fulfillCounter": 0
+      },
+      "fulfilled": "resolved"
+    },
+    {
+      "id": 1,
+      "type": "value",
+      "loc": "(LinkedByResolve2.js:2:10:4:4)",
+      "timeStamp": 1526606797306,
+      "data": {
+        "value": "Undefined",
+        "id": ""
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 2,
+      "type": "promise",
+      "loc": "(LinkedByResolve2.js:5:10:8:3)",
+      "timeStamp": 1526606797306,
+      "data": {
+        "id": "p1",
+        "associatedOID": "obj5"
+      },
+      "fulfilled": "pending"
+    },
+    {
+      "id": 3,
+      "type": "function",
+      "loc": "(LinkedByResolve2.js:9:1:9:40)",
+      "timeStamp": 1526606797307,
+      "data": {
+        "name": "",
+        "fID": "obj7",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 4,
+      "type": "function",
+      "loc": "(LinkedByResolve2.js:9:1:9:40)",
+      "timeStamp": 1526606797307,
+      "data": {
+        "name": "_default",
+        "fID": "obj9",
+        "executed": false,
+        "numOfArgs": 1
+      },
+      "fulfilled": "n/a"
+    },
+    {
+      "id": 5,
+      "type": "promise",
+      "loc": "(LinkedByResolve2.js:9:1:9:40)",
+      "timeStamp": 1526606797307,
+      "data": {
+        "id": "p2"
+      },
+      "fulfilled": "pending"
+    }
+  ],
+  "edges": [
+    {
+      "id": 0,
+      "type": "react",
+      "source": 1,
+      "target": 0,
+      "timeStamp": 1526606797306,
+      "loc": "(LinkedByResolve2.js:2:10:4:4)",
+      "label": "resolve",
+      "data": {
+        "explicit": "yes",
+        "doubleSettle": false
+      }
+    },
+    {
+      "id": 1,
+      "type": "register",
+      "source": 2,
+      "target": 3,
+      "timeStamp": 1526606797307,
+      "loc": "(LinkedByResolve2.js:9:1:9:40)",
+      "label": "on-resolve",
+      "data": {}
+    },
+    {
+      "id": 2,
+      "type": "register",
+      "source": 2,
+      "target": 4,
+      "timeStamp": 1526606797307,
+      "loc": "(LinkedByResolve2.js:9:1:9:40)",
+      "label": "on-reject",
+      "data": {}
+    }
+  ]
+}
