@@ -73,6 +73,3 @@ This folder contains the graphs inferred from the traces in JSON format.
 - Visualized graphs and textual reports: tests-unit/output-actual/graph-vis/
 This forlder contains the visual representation of each graph, overlaid with information about inferred anti-patterns. A textual report accompanies each graph to provide an overview of discovered anti-patterns.
 
-## Running the Node.js benchmark applications
-
-
