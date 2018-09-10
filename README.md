@@ -1,4 +1,6 @@
 # PromiseKeeper
+#### Finding Broken Promises in Asynchronous JavaScript Programs, [OOPSLA'18](http://ece.ubc.ca/~saba/dl/promisekeeper.pdf)
+<br /><br />
 
 ## Installing the project
 The instructions are for installation on Ubuntu.
@@ -72,7 +74,4 @@ This folder contains the raw traces, but in JSON format. Each JSON log file attr
 This folder contains the graphs inferred from the traces in JSON format.
 - Visualized graphs and textual reports: tests-unit/output-actual/graph-vis/
 This forlder contains the visual representation of each graph, overlaid with information about inferred anti-patterns. A textual report accompanies each graph to provide an overview of discovered anti-patterns.
-
-## Running the Node.js benchmark applications
-
 
