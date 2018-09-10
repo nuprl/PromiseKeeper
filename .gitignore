@@ -107,5 +107,6 @@ ehthumbs.db
 Thumbs.db
 
 .project
+node_modules/
 #node_modules/graphviz/
 src/log/intermediateLogs/
