@@ -1,3 +1,0 @@
-project-name: node-hn-api
-
-numOfDeadPromise: 0, numOfUndefinedValue: 0, numOfUndefinedValuesRefined: 0, numOfMissingReject: 0, numOfmissingRejectInChain: 0, numOfMultipleThens: 0

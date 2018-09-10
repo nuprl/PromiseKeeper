@@ -1,4 +1,0 @@
-project-name: frontend
-
-Total:
-functions: 0, values: 0, promises: 0, fulfilled: 0, rejected: 0, pending: 0

@@ -1,3 +1,0 @@
-project-name: node-promise-mysql
-
-numOfDeadPromise: 14, numOfUndefinedValue: 0, numOfUndefinedValuesRefined: 0, numOfMissingReject: 0, numOfmissingRejectInChain: 0, numOfMultipleThens: 0, numOfRejectedWithoutAReaction: 0, numOfExclusivelyExecutedReactions: 0, numOfDoubleSettles: 0, numOfPendingPromises: 14, numOfPendingSyncNodes: 0, numOfDeadCode: 0

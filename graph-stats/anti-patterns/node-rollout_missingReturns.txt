@@ -1,6 +1,0 @@
-Project <node-rollout> contains <3> missing returns
-<0> missing returns after refinement
-#45 [undefined value] >> #15 [fulfilled promise p6]
-#32 [undefined value] >> #9 [fulfilled promise p3]
-#32 [undefined value] >> #9 [fulfilled promise p3]
-

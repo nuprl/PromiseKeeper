@@ -1,6 +1,0 @@
-project-name: node-promise-mysql
-test-name: test1.json
-functions: 0, values: 7, promises: 21, fulfilled: 7, rejected: 0, pending: 14
-
-Total:
-functions: 0, values: 7, promises: 21, fulfilled: 7, rejected: 0, pending: 14

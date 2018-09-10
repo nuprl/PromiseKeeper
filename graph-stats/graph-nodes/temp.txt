@@ -1,6 +1,0 @@
-project-name: temp
-test-name: test1.json
-functions: 4, values: 3, promises: 3, fulfilled: 3, rejected: 0, pending: 0
-
-Total:
-functions: 4, values: 3, promises: 3, fulfilled: 3, rejected: 0, pending: 0

@@ -1,8 +1,0 @@
-project-name: express
-test-name: index.json
-functions: 402, values: 257, promises: 259, fulfilled: 252, rejected: 7, pending: 0
-test-name: rest_index.json
-functions: 292, values: 189, promises: 191, fulfilled: 184, rejected: 7, pending: 0
-
-Total:
-functions: 694, values: 446, promises: 450, fulfilled: 436, rejected: 14, pending: 0

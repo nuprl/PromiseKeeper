@@ -1,3 +1,0 @@
-project-name: node-fetch
-
-numOfDeadPromise: 1012, numOfUndefinedValue: 126, numOfUndefinedValuesRefined: 0, numOfMissingReject: 289, numOfmissingRejectInChain: 70, numOfMultipleThens: 1, numOfRejectedWithoutAReaction: 7, numOfExclusivelyExecutedReactions: 330, numOfDoubleSettles: 0, numOfPendingPromises: 1013, numOfPendingSyncNodes: 1, numOfDeadCode: 449

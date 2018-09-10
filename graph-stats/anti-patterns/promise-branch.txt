@@ -1,3 +1,0 @@
-project-name: promise-branch
-
-numOfDeadPromise: 0, numOfUndefinedValue: 18, numOfUndefinedValuesRefined: 0, numOfMissingReject: 11, numOfmissingRejectInChain: 7, numOfMultipleThens: 0, numOfRejectedWithoutAReaction: 0, numOfExclusivelyExecutedReactions: 15, numOfDoubleSettles: 0, numOfPendingPromises: 6, numOfPendingSyncNodes: 0, numOfDeadCode: 22

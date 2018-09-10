@@ -1,3 +1,0 @@
-project-name: express
-
-numOfDeadPromise: 0, numOfUndefinedValue: 55, numOfUndefinedValuesRefined: 19, numOfMissingReject: 230, numOfmissingRejectInChain: 4, numOfMultipleThens: 0, numOfDoubleSettles: 0, numOfPendingPromises: 0, numOfPendingSyncNodes: 0, numOfDeadCode: 349
