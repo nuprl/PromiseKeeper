@@ -4,7 +4,7 @@ Recently, promises were added to ECMAScript 6, the JavaScript standard, in order
 In this paper, we extend the notion of promise graphs to include all promise-related features in ECMAScript 6, including default reactions, exceptions, and the synchronization operations race and all. Furthermore, we report on the construction and evaluation of PromiseKeeper, which performs a dynamic analysis to create promise graphs and infer common promise anti-patterns. We evaluate PromiseKeeper by applying it to 12 open source promise-based Node.js applications. Our results suggest that the promise graphs constructed by PromiseKeeper can provide developers with valuable information about occurrences of common anti-patterns in their promise-based code, and that promise graphs can be constructed with acceptable run-time overhead.
 <br /><br />
 
-![sample promise graph](https://imgur.com/a/OpI8AH0)
+![sample promise graph](https://i.imgur.com/f3N8gw3.png)
 
 ## Installing the project
 The instructions are for installation on Ubuntu.
