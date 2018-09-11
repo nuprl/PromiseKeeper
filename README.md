@@ -13,9 +13,9 @@ The instructions are for installation on Ubuntu.
 1) Install Node and npm<br />
 
 ```
-  $ sudo apt-get update
-  $ sudo apt-get install nodejs
-  $ sudo apt-get install npm
+$ sudo apt-get update
+$ sudo apt-get install nodejs
+$ sudo apt-get install npm
 ```
 
 2) Install Git:
@@ -32,7 +32,7 @@ $ sudo apt install python-pip
 - We are using the [node-graphviz](https://github.com/glejeune/node-graphviz) package, which is based on [Graphviz](http://www.graphviz.org). You need to install both:
 
 ```
-  $ npm install graphviz
+$ npm install graphviz
 ```
 
 - [Download](http://www.graphviz.org/Download.php) and install Graphviz
@@ -62,14 +62,14 @@ $JALANGI_HOME
 
 8) Swich to the project directory and install PromiseKeeper
 ```
-  $npm install
+$npm install
 ```
 
 
 ## Running the unit tests
 You can run the Mocha unit tests from the command line. First, switch to the project directory (PromiseKeeper). Then, execute the following command:
 ```
-  $npm test
+$npm test
 ```
 
 You can also run the unit tests within an IDE that is bundled with Node and Mocha plugins, by running the test/unit-tests.js as a Mocha test file.
