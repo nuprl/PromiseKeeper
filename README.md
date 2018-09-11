@@ -60,6 +60,12 @@ $PROMISES_HOME
 $JALANGI_HOME
 ```
 
+8) Swich to the project directory and install PromiseKeeper
+```
+  $npm install
+```
+
+
 ## Running the unit tests
 You can run the Mocha unit tests from the command line. First, switch to the project directory (PromiseKeeper). Then, execute the following command:
 ```
