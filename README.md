@@ -2,7 +2,7 @@
 #### Finding Broken Promises in Asynchronous JavaScript Programs, [OOPSLA'18](http://ece.ubc.ca/~saba/dl/promisekeeper.pdf)
 Recently, promises were added to ECMAScript 6, the JavaScript standard, in order to provide better support for the asynchrony that arises in user interfaces, network communication, and non-blocking I/O. Using promises, programmers can avoid common pitfalls of event-driven programming such as event races and the deeply nested counterintuitive control flow referred to as “callback hell”. Unfortunately, promises have complex semantics and the intricate control– and data-flow present in promise-based code hinders program comprehension and can easily lead to bugs. The promise graph was proposed as a graphical aid for understanding and debugging promise-based code.
 PromiseKeeper is an open-source tool which performs a dynamic analysis to create promise graphs and infer common promise anti-patterns.
-The results of applying PromiseKeeper to 12 open source promise-based Node.js applications suggest that the constructred promise graphs can provide developers with valuable information about occurrences of common anti-patterns in their promise-based code, and that promise graphs can be constructed with acceptable run-time overhead.
+The results of applying PromiseKeeper to 12 open source promise-based Node.js applications suggest that the constructed promise graphs can provide developers with valuable information about occurrences of common anti-patterns in their promise-based code, and that promise graphs can be constructed with acceptable run-time overhead.
 <br /><br />
 
 ![sample promise graph](https://image.ibb.co/du2BqU/vis_copy.png)
