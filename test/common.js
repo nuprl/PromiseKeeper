@@ -7,7 +7,6 @@ function Common() {
 
     var JALANGI_HOME = shell.env['JALANGI_HOME'];
     var TOOL_HOME = shell.env['PROMISES_HOME'];
-    TOOL_HOME = '/Users/saba/Documents/northeastern/research/promises/Promises';
     var ANALYSIS_SRC_DIR = TOOL_HOME + path.sep + 'src';
 
     /**
