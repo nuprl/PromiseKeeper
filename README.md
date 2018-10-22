@@ -42,7 +42,7 @@ $ npm install graphviz
 5) Clone PromiseKeeper<br />
 
 ```
- $ git clone https://github.com/franktip/PromiseKeeper.git
+ $ git clone https://github.com/nuprl/PromiseKeeper.git
 ```
 
 6) Download and install [Jalangi](https://github.com/Samsung/jalangi2)
