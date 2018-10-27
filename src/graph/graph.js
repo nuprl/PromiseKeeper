@@ -365,23 +365,34 @@ PromisesGraph.prototype.rejectEdgeNotLinking = function (logEntry, promise, logT
  * @param logEntry
  */
 PromisesGraph.prototype.createResolveReaction = function (logEntry) {
+    var findByFID = function (fID) {
+        return this.nodes.find(function (node) {
+            return node.type == "function" && node.data.fID == fID;
+        });
+    }.bind(this);
     var logTime = logEntry.timeStamp, logLoc = logEntry.loc;
     // get the promise node
     var promise = this.promises[logEntry.pID];
 
-    // create new function node
-    var funcData = {
-        name: logEntry.functionName,
-        fID: logEntry.fID,
-        executed: false,
-        numOfArgs: logEntry.numOfArgs
-    };
-    var newFunction = new Node(this.assignNodeId(), 'function', logTime, logLoc, funcData, this.FULFILLED.NA);
+    // Find function by fId if existe
+    var newFunction = findByFID(logEntry.fID);
+
+    if (!newFunction) {
+        // create new function node
+        var funcData = {
+            name: logEntry.functionName,
+            fID: logEntry.fID,
+            executed: false,
+            numOfArgs: logEntry.numOfArgs
+        };
+        newFunction = new Node(this.assignNodeId(), 'function', logTime, logLoc, funcData, this.FULFILLED.NA);
+        this.functions[logEntry.fID] = newFunction;
+        this.nodes.push(newFunction);
+    }
+
     // create edge from promise to function
     var newEdge = new Edge(this.assignEdgeId(), 'register', promise.id, newFunction.id, logTime, logLoc,
         'on-resolve', {});
-    this.functions[logEntry.fID] = newFunction;
-    this.nodes.push(newFunction);
     this.edges.push(newEdge);
 };
 
@@ -391,20 +402,31 @@ PromisesGraph.prototype.createResolveReaction = function (logEntry) {
  * @param logEntry
  */
 PromisesGraph.prototype.createRejectReaction = function (logEntry) {
+    var findByFID = function (fID) {
+        return this.nodes.find(function (node) {
+            return node.type == "function" && node.data.fID == fID;
+        });
+    }.bind(this);
     var logTime = logEntry.timeStamp, logLoc = logEntry.loc;
     var promise = this.promises[logEntry.pID];
 
-    var funcData = {
-        name: logEntry.functionName,
-        fID: logEntry.fID,
-        executed: false,
-        numOfArgs: logEntry.numOfArgs
-    };
-    var newFunction = new Node(this.assignNodeId(), 'function', logTime, logLoc, funcData, this.FULFILLED.NA);
+    // Find function by fId if existe
+    var newFunction = findByFID(logEntry.fID);
+
+    if (!newFunction) {
+        // create new function node
+        var funcData = {
+            name: logEntry.functionName,
+            fID: logEntry.fID,
+            executed: false,
+            numOfArgs: logEntry.numOfArgs
+        };
+        newFunction = new Node(this.assignNodeId(), 'function', logTime, logLoc, funcData, this.FULFILLED.NA);
+        this.functions[logEntry.fID] = newFunction;
+        this.nodes.push(newFunction);
+    }
     var newEdge = new Edge(this.assignEdgeId(), 'register', promise.id, newFunction.id, logTime, logLoc,
         'on-reject', {});
-    this.functions[logEntry.fID] = newFunction;
-    this.nodes.push(newFunction);
     this.edges.push(newEdge);
 };
 

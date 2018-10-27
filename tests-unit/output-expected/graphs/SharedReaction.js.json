@@ -4,7 +4,7 @@
       "id": 0,
       "type": "promise",
       "loc": "(SharedReaction.js:1:10:1:29)",
-      "timeStamp": 1523304846066,
+      "timeStamp": 1540623062007,
       "data": {
         "id": "p0",
         "associatedOID": "obj3",
@@ -16,7 +16,7 @@
       "id": 1,
       "type": "value",
       "loc": "(SharedReaction.js:1:10:1:29)",
-      "timeStamp": 1523304846067,
+      "timeStamp": 1540623062008,
       "data": {
         "value": "Number 17",
         "id": ""
@@ -27,33 +27,20 @@
       "id": 2,
       "type": "function",
       "loc": "(SharedReaction.js:7:1:7:27)",
-      "timeStamp": 1523304846070,
+      "timeStamp": 1540623062010,
       "data": {
         "name": "",
         "fID": "obj5",
-        "executed": false,
+        "executed": true,
         "numOfArgs": 1
       },
       "fulfilled": "n/a"
     },
     {
       "id": 3,
-      "type": "function",
-      "loc": "(SharedReaction.js:7:1:7:27)",
-      "timeStamp": 1523304846070,
-      "data": {
-        "name": "",
-        "fID": "obj5",
-        "executed": false,
-        "numOfArgs": 1
-      },
-      "fulfilled": "n/a"
-    },
-    {
-      "id": 4,
       "type": "promise",
       "loc": "(SharedReaction.js:7:1:7:27)",
-      "timeStamp": 1523304846070,
+      "timeStamp": 1540623062010,
       "data": {
         "id": "p1",
         "fulfillCounter": 1
@@ -61,36 +48,10 @@
       "fulfilled": "resolved"
     },
     {
-      "id": 5,
-      "type": "function",
-      "loc": "(SharedReaction.js:7:1:7:51)",
-      "timeStamp": 1523304846070,
-      "data": {
-        "name": "",
-        "fID": "obj5",
-        "executed": false,
-        "numOfArgs": 1
-      },
-      "fulfilled": "n/a"
-    },
-    {
-      "id": 6,
-      "type": "function",
-      "loc": "(SharedReaction.js:7:1:7:51)",
-      "timeStamp": 1523304846070,
-      "data": {
-        "name": "",
-        "fID": "obj5",
-        "executed": false,
-        "numOfArgs": 1
-      },
-      "fulfilled": "n/a"
-    },
-    {
-      "id": 7,
+      "id": 4,
       "type": "promise",
       "loc": "(SharedReaction.js:7:1:7:51)",
-      "timeStamp": 1523304846070,
+      "timeStamp": 1540623062010,
       "data": {
         "id": "p2",
         "fulfillCounter": 2
@@ -98,36 +59,10 @@
       "fulfilled": "resolved"
     },
     {
-      "id": 8,
-      "type": "function",
-      "loc": "(SharedReaction.js:7:1:7:75)",
-      "timeStamp": 1523304846070,
-      "data": {
-        "name": "",
-        "fID": "obj5",
-        "executed": false,
-        "numOfArgs": 1
-      },
-      "fulfilled": "n/a"
-    },
-    {
-      "id": 9,
-      "type": "function",
-      "loc": "(SharedReaction.js:7:1:7:75)",
-      "timeStamp": 1523304846070,
-      "data": {
-        "name": "",
-        "fID": "obj5",
-        "executed": true,
-        "numOfArgs": 1
-      },
-      "fulfilled": "n/a"
-    },
-    {
-      "id": 10,
+      "id": 5,
       "type": "promise",
       "loc": "(SharedReaction.js:7:1:7:75)",
-      "timeStamp": 1523304846070,
+      "timeStamp": 1540623062010,
       "data": {
         "id": "p3",
         "fulfillCounter": 3
@@ -135,23 +70,10 @@
       "fulfilled": "resolved"
     },
     {
-      "id": 11,
+      "id": 6,
       "type": "function",
       "loc": "(SharedReaction.js:7:1:7:94)",
-      "timeStamp": 1523304846070,
-      "data": {
-        "name": "",
-        "fID": "obj13",
-        "executed": false,
-        "numOfArgs": 1
-      },
-      "fulfilled": "n/a"
-    },
-    {
-      "id": 12,
-      "type": "function",
-      "loc": "(SharedReaction.js:7:1:7:94)",
-      "timeStamp": 1523304846070,
+      "timeStamp": 1540623062010,
       "data": {
         "name": "",
         "fID": "obj13",
@@ -161,10 +83,10 @@
       "fulfilled": "n/a"
     },
     {
-      "id": 13,
+      "id": 7,
       "type": "promise",
       "loc": "(SharedReaction.js:7:1:7:94)",
-      "timeStamp": 1523304846070,
+      "timeStamp": 1540623062010,
       "data": {
         "id": "p4",
         "fulfillCounter": 4
@@ -172,10 +94,10 @@
       "fulfilled": "resolved"
     },
     {
-      "id": 14,
+      "id": 8,
       "type": "value",
       "loc": "(SharedReaction.js:7:1:7:27)",
-      "timeStamp": 1523304846072,
+      "timeStamp": 1540623062012,
       "data": {
         "value": "Number 17",
         "id": ""
@@ -183,10 +105,10 @@
       "fulfilled": "n/a"
     },
     {
-      "id": 15,
+      "id": 9,
       "type": "value",
       "loc": "(SharedReaction.js:7:1:7:51)",
-      "timeStamp": 1523304846072,
+      "timeStamp": 1540623062012,
       "data": {
         "value": "Number 17",
         "id": ""
@@ -194,10 +116,10 @@
       "fulfilled": "n/a"
     },
     {
-      "id": 16,
+      "id": 10,
       "type": "value",
       "loc": "(SharedReaction.js:7:1:7:75)",
-      "timeStamp": 1523304846072,
+      "timeStamp": 1540623062012,
       "data": {
         "value": "Number 17",
         "id": ""
@@ -205,10 +127,10 @@
       "fulfilled": "n/a"
     },
     {
-      "id": 17,
+      "id": 11,
       "type": "value",
       "loc": "(SharedReaction.js:7:1:7:94)",
-      "timeStamp": 1523304846073,
+      "timeStamp": 1540623062015,
       "data": {
         "value": "Undefined",
         "id": ""
@@ -222,7 +144,7 @@
       "type": "react",
       "source": 1,
       "target": 0,
-      "timeStamp": 1523304846067,
+      "timeStamp": 1540623062008,
       "loc": "(SharedReaction.js:1:10:1:29)",
       "label": "resolve",
       "data": {
@@ -235,7 +157,7 @@
       "type": "register",
       "source": 0,
       "target": 2,
-      "timeStamp": 1523304846070,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:27)",
       "label": "on-resolve",
       "data": {}
@@ -244,8 +166,8 @@
       "id": 2,
       "type": "register",
       "source": 0,
-      "target": 3,
-      "timeStamp": 1523304846070,
+      "target": 2,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:27)",
       "label": "on-reject",
       "data": {}
@@ -253,9 +175,9 @@
     {
       "id": 3,
       "type": "register",
-      "source": 4,
-      "target": 5,
-      "timeStamp": 1523304846070,
+      "source": 3,
+      "target": 2,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:51)",
       "label": "on-resolve",
       "data": {}
@@ -263,9 +185,9 @@
     {
       "id": 4,
       "type": "register",
-      "source": 4,
-      "target": 6,
-      "timeStamp": 1523304846070,
+      "source": 3,
+      "target": 2,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:51)",
       "label": "on-reject",
       "data": {}
@@ -273,9 +195,9 @@
     {
       "id": 5,
       "type": "register",
-      "source": 7,
-      "target": 8,
-      "timeStamp": 1523304846070,
+      "source": 4,
+      "target": 2,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:75)",
       "label": "on-resolve",
       "data": {}
@@ -283,9 +205,9 @@
     {
       "id": 6,
       "type": "register",
-      "source": 7,
-      "target": 9,
-      "timeStamp": 1523304846070,
+      "source": 4,
+      "target": 2,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:75)",
       "label": "on-reject",
       "data": {}
@@ -293,9 +215,9 @@
     {
       "id": 7,
       "type": "register",
-      "source": 10,
-      "target": 11,
-      "timeStamp": 1523304846070,
+      "source": 5,
+      "target": 6,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:94)",
       "label": "on-resolve",
       "data": {}
@@ -303,9 +225,9 @@
     {
       "id": 8,
       "type": "register",
-      "source": 10,
-      "target": 12,
-      "timeStamp": 1523304846070,
+      "source": 5,
+      "target": 6,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:94)",
       "label": "on-reject",
       "data": {}
@@ -313,9 +235,9 @@
     {
       "id": 9,
       "type": "react",
-      "source": 14,
-      "target": 4,
-      "timeStamp": 1523304846072,
+      "source": 8,
+      "target": 3,
+      "timeStamp": 1540623062012,
       "loc": "(SharedReaction.js:7:1:7:27)",
       "label": "resolve",
       "data": {
@@ -326,19 +248,19 @@
     {
       "id": 10,
       "type": "return",
-      "source": 9,
-      "target": 14,
-      "timeStamp": 1523304846070,
-      "loc": "(SharedReaction.js:7:1:7:75)",
+      "source": 2,
+      "target": 8,
+      "timeStamp": 1540623062010,
+      "loc": "(SharedReaction.js:7:1:7:27)",
       "label": "return",
       "data": {}
     },
     {
       "id": 11,
       "type": "react",
-      "source": 15,
-      "target": 7,
-      "timeStamp": 1523304846072,
+      "source": 9,
+      "target": 4,
+      "timeStamp": 1540623062012,
       "loc": "(SharedReaction.js:7:1:7:51)",
       "label": "resolve",
       "data": {
@@ -349,19 +271,19 @@
     {
       "id": 12,
       "type": "return",
-      "source": 9,
-      "target": 15,
-      "timeStamp": 1523304846070,
-      "loc": "(SharedReaction.js:7:1:7:75)",
+      "source": 2,
+      "target": 9,
+      "timeStamp": 1540623062010,
+      "loc": "(SharedReaction.js:7:1:7:27)",
       "label": "return",
       "data": {}
     },
     {
       "id": 13,
       "type": "react",
-      "source": 16,
-      "target": 10,
-      "timeStamp": 1523304846072,
+      "source": 10,
+      "target": 5,
+      "timeStamp": 1540623062012,
       "loc": "(SharedReaction.js:7:1:7:75)",
       "label": "resolve",
       "data": {
@@ -372,19 +294,19 @@
     {
       "id": 14,
       "type": "return",
-      "source": 9,
-      "target": 16,
-      "timeStamp": 1523304846070,
-      "loc": "(SharedReaction.js:7:1:7:75)",
+      "source": 2,
+      "target": 10,
+      "timeStamp": 1540623062010,
+      "loc": "(SharedReaction.js:7:1:7:27)",
       "label": "return",
       "data": {}
     },
     {
       "id": 15,
       "type": "react",
-      "source": 17,
-      "target": 13,
-      "timeStamp": 1523304846073,
+      "source": 11,
+      "target": 7,
+      "timeStamp": 1540623062015,
       "loc": "(SharedReaction.js:7:1:7:94)",
       "label": "resolve",
       "data": {
@@ -395,9 +317,9 @@
     {
       "id": 16,
       "type": "return",
-      "source": 12,
-      "target": 17,
-      "timeStamp": 1523304846070,
+      "source": 6,
+      "target": 11,
+      "timeStamp": 1540623062010,
       "loc": "(SharedReaction.js:7:1:7:94)",
       "label": "return",
       "data": {}
