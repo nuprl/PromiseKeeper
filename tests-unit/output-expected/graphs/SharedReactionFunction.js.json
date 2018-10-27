@@ -4,7 +4,7 @@
       "id": 0,
       "type": "promise",
       "loc": "(SharedReactionFunction.js:5:1:5:19)",
-      "timeStamp": 1526606845518,
+      "timeStamp": 1540623062551,
       "data": {
         "id": "p0",
         "associatedOID": "obj3",
@@ -16,7 +16,7 @@
       "id": 1,
       "type": "value",
       "loc": "(SharedReactionFunction.js:5:1:5:19)",
-      "timeStamp": 1526606845519,
+      "timeStamp": 1540623062553,
       "data": {
         "value": "Number 1",
         "id": ""
@@ -27,11 +27,11 @@
       "id": 2,
       "type": "function",
       "loc": "(SharedReactionFunction.js:5:1:5:29)",
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062554,
       "data": {
         "name": "foo",
         "fID": "obj5",
-        "executed": false,
+        "executed": true,
         "numOfArgs": 1
       },
       "fulfilled": "n/a"
@@ -40,7 +40,7 @@
       "id": 3,
       "type": "function",
       "loc": "(SharedReactionFunction.js:5:1:5:29)",
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062554,
       "data": {
         "name": "_default",
         "fID": "obj7",
@@ -53,7 +53,7 @@
       "id": 4,
       "type": "promise",
       "loc": "(SharedReactionFunction.js:5:1:5:29)",
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062554,
       "data": {
         "id": "p1",
         "fulfillCounter": 2
@@ -64,7 +64,7 @@
       "id": 5,
       "type": "promise",
       "loc": "(SharedReactionFunction.js:6:1:6:19)",
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062554,
       "data": {
         "id": "p2",
         "associatedOID": "obj11",
@@ -76,7 +76,7 @@
       "id": 6,
       "type": "value",
       "loc": "(SharedReactionFunction.js:6:1:6:19)",
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062554,
       "data": {
         "value": "Number 2",
         "id": ""
@@ -87,20 +87,7 @@
       "id": 7,
       "type": "function",
       "loc": "(SharedReactionFunction.js:6:1:6:29)",
-      "timeStamp": 1526606845520,
-      "data": {
-        "name": "foo",
-        "fID": "obj5",
-        "executed": true,
-        "numOfArgs": 1
-      },
-      "fulfilled": "n/a"
-    },
-    {
-      "id": 8,
-      "type": "function",
-      "loc": "(SharedReactionFunction.js:6:1:6:29)",
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062555,
       "data": {
         "name": "_default",
         "fID": "obj13",
@@ -110,10 +97,10 @@
       "fulfilled": "n/a"
     },
     {
-      "id": 9,
+      "id": 8,
       "type": "promise",
       "loc": "(SharedReactionFunction.js:6:1:6:29)",
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062555,
       "data": {
         "id": "p3",
         "fulfillCounter": 3
@@ -121,10 +108,10 @@
       "fulfilled": "resolved"
     },
     {
-      "id": 10,
+      "id": 9,
       "type": "value",
       "loc": "(SharedReactionFunction.js:5:1:5:29)",
-      "timeStamp": 1526606845523,
+      "timeStamp": 1540623062559,
       "data": {
         "value": "Undefined",
         "id": ""
@@ -132,10 +119,10 @@
       "fulfilled": "n/a"
     },
     {
-      "id": 11,
+      "id": 10,
       "type": "value",
       "loc": "(SharedReactionFunction.js:6:1:6:29)",
-      "timeStamp": 1526606845523,
+      "timeStamp": 1540623062560,
       "data": {
         "value": "Undefined",
         "id": ""
@@ -149,7 +136,7 @@
       "type": "react",
       "source": 1,
       "target": 0,
-      "timeStamp": 1526606845519,
+      "timeStamp": 1540623062553,
       "loc": "(SharedReactionFunction.js:5:1:5:19)",
       "label": "resolve",
       "data": {
@@ -162,7 +149,7 @@
       "type": "register",
       "source": 0,
       "target": 2,
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062554,
       "loc": "(SharedReactionFunction.js:5:1:5:29)",
       "label": "on-resolve",
       "data": {}
@@ -172,7 +159,7 @@
       "type": "register",
       "source": 0,
       "target": 3,
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062554,
       "loc": "(SharedReactionFunction.js:5:1:5:29)",
       "label": "on-reject",
       "data": {}
@@ -182,7 +169,7 @@
       "type": "react",
       "source": 6,
       "target": 5,
-      "timeStamp": 1526606845520,
+      "timeStamp": 1540623062554,
       "loc": "(SharedReactionFunction.js:6:1:6:19)",
       "label": "resolve",
       "data": {
@@ -194,8 +181,8 @@
       "id": 4,
       "type": "register",
       "source": 5,
-      "target": 7,
-      "timeStamp": 1526606845520,
+      "target": 2,
+      "timeStamp": 1540623062555,
       "loc": "(SharedReactionFunction.js:6:1:6:29)",
       "label": "on-resolve",
       "data": {}
@@ -204,8 +191,8 @@
       "id": 5,
       "type": "register",
       "source": 5,
-      "target": 8,
-      "timeStamp": 1526606845520,
+      "target": 7,
+      "timeStamp": 1540623062555,
       "loc": "(SharedReactionFunction.js:6:1:6:29)",
       "label": "on-reject",
       "data": {}
@@ -213,9 +200,9 @@
     {
       "id": 6,
       "type": "react",
-      "source": 10,
+      "source": 9,
       "target": 4,
-      "timeStamp": 1526606845523,
+      "timeStamp": 1540623062559,
       "loc": "(SharedReactionFunction.js:5:1:5:29)",
       "label": "resolve",
       "data": {
@@ -226,19 +213,19 @@
     {
       "id": 7,
       "type": "return",
-      "source": 7,
-      "target": 10,
-      "timeStamp": 1526606845520,
-      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "source": 2,
+      "target": 9,
+      "timeStamp": 1540623062554,
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
       "label": "return",
       "data": {}
     },
     {
       "id": 8,
       "type": "react",
-      "source": 11,
-      "target": 9,
-      "timeStamp": 1526606845523,
+      "source": 10,
+      "target": 8,
+      "timeStamp": 1540623062560,
       "loc": "(SharedReactionFunction.js:6:1:6:29)",
       "label": "resolve",
       "data": {
@@ -249,10 +236,10 @@
     {
       "id": 9,
       "type": "return",
-      "source": 7,
-      "target": 11,
-      "timeStamp": 1526606845520,
-      "loc": "(SharedReactionFunction.js:6:1:6:29)",
+      "source": 2,
+      "target": 10,
+      "timeStamp": 1540623062554,
+      "loc": "(SharedReactionFunction.js:5:1:5:29)",
       "label": "return",
       "data": {}
     }
